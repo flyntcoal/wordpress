@@ -1,0 +1,709 @@
+/** option css **/
+
+#gui_option table td{
+    vertical-align: top;
+}
+
+#gui_option .form-table tr{
+
+}
+
+#gui_option .form-table td{
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+#gui_option .form-table th{
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+#gui_option .nav-tab{
+    padding: 7px 10px;
+}
+
+
+
+#gui-font-cat-list,#gui-font-list,#gui-font-preview,#gui-font-selected{
+    height: auto !important;
+    width: 100%;
+}
+
+#gui-font-preview{
+    height: 250px !important;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    overflow-x: scroll;
+    word-wrap: break-word;
+}
+
+#gui-font td{
+    width: 25% ;
+}
+
+@media only screen and (max-width:782px){
+    #gui-font th{
+        visibility: hidden;
+    }
+    #gui-font td{
+        display: block;
+        width: 100% ;
+    }
+    
+    
+    #gui-font-cat-list,#gui-font-list,#gui-font-preview,#gui-font-selected{
+        height: auto !important;
+        width: 100%;
+        clear: both;
+    }
+
+}
+
+.gui-horizontal{margin: 0;}
+.gui-horizontal dt {float: left;width:70px;overflow: hidden;clear: left;text-align: left; text-overflow: ellipsis;white-space: nowrap;}
+.gui-horizontal dt {font-weight: 700;}
+.gui-horizontal dd, .gui-horizontal dt {line-height: 1.42857143;}
+.gui-horizontal dd { margin-left: 80px;}
+
+
+#gui_option .gui-custom-css{
+    min-height: 600px;
+    width: 100%;
+}
+
+#gui_filter_addons{
+    padding: 8px 10px;
+}
+
+.gui_toolbar a:link,
+.gui_toolbar a:hover,
+.gui_toolbar a:visited
+{
+    margin:2px;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.gui_toolbar_button{
+    line-height: 1.8;
+}
+
+.gui_label i:before
+{
+    margin-right:2px;
+}
+
+
+.gui_label{
+    display: inline;
+    padding: 0.2em 0.6em 0.3em !important;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    background-color: #777;
+}
+
+#gui_option .nav-tab-wrapper{
+    margin-bottom: 24px;
+}
+
+#gui_option_inline_editor{
+    padding: 6px 12px;
+}
+
+#gui_option_menubar{
+    padding: 6px 12px;
+}
+
+
+.addons {
+    margin: 0 auto 10px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.addons-top {
+    font-size: 13px;
+    font-weight: 600;
+    background: #f7f7f7;
+}
+
+.addons-top a.addons-action,
+.addons-top a.addons-action:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.addons-title h4 {
+    margin: 0;
+    padding: 15px;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.addonss-holder-wrap .addons-inside {
+    border-top: none;
+    padding: 1px 15px 15px 15px;
+    line-height: 16px;
+}
+
+.in-addons-title,
+#addonss-right a.addons-control-edit,
+#available-addonss .addons-description {
+    color: #666;
+}
+
+.deleting .addons-title,
+.deleting .addons-top a.addons-action:after {
+    color: #a0a5aa;
+}
+
+/* addons Dragging Helpers */
+.addons.ui-draggable-dragging {
+    min-width: 100%;
+}
+
+.addons.ui-sortable-helper {
+    opacity: 0.8;
+}
+
+.addons-placeholder {
+    border: 1px dashed #b4b9be;
+    margin: 0 auto 10px;
+    height: 45px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#addonss-right .addons-placeholder {
+    margin-top: 0;
+}
+
+#addonss-right .closed .addons-placeholder {
+    height: 0;
+    border: 0;
+    margin-top: -10px;
+}
+
+/* addons Sidebars */
+.sidebar-name {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sidebar-name-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.js .sidebar-name {
+    cursor: pointer;
+}
+
+.sidebar-name h3 {
+    margin: 0;
+    padding: 8px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.addonss-holder-wrap .description {
+    padding: 0 0 15px;
+    margin: 0;
+    font-style: normal;
+    color: #777;
+}
+
+#addonss-right .addonss-holder-wrap .description {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/* addonss 2-col Layout */
+div.addons-liquid-left {
+    margin: 0;
+    width: 38%;
+    float: left;
+}
+
+div.addons-liquid-right {
+    float: right;
+    width: 58%;
+}
+
+/* addonss Left - Available addonss */
+
+div#addonss-left {
+    padding-top: 12px;
+}
+
+div#addonss-left .closed .sidebar-name,
+div#addonss-left .inactive-sidebar.closed .sidebar-name {
+    margin-bottom: 10px;
+}
+
+div#addonss-left .sidebar-name h3 {
+    padding: 10px 0;
+    margin: 0 10px 0 0;
+}
+
+div#addonss-left .sidebar-name .sidebar-name-arrow:before {
+    right: 0;
+    top: 4px;
+    padding: 4px 6px 4px 4px;
+}
+
+#addonss-left #available-addonss,
+div#addonss-left .addons-holder {
+    background: transparent;
+    border: none;
+}
+
+#addonss-left .addonss-holder-wrap {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#available-addonss .addons-action {
+    display: none;
+}
+
+#available-addonss .addons {
+    margin: 0;
+}
+
+#available-addonss .addons:nth-child(odd) {
+    clear: both;
+}
+
+#available-addonss .addons .addons-description {
+    display: block;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+#available-addonss #addons-list {
+    position: relative;
+}
+
+/* Inactive Sidebars */
+#addonss-left .inactive-sidebar {
+    clear: both;
+    width: 100%;
+    background: transparent;
+    padding: 0;
+    margin: 0 0 20px 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#addonss-left .inactive-sidebar.first {
+    margin-top: 40px;
+}
+
+/* Not sure what this is for... */
+div#addonss-left .inactive-sidebar .addons.expanded {
+    left: auto;
+}
+
+.addons-title-action {
+    float: right;
+    position: relative;
+}
+
+div#addonss-left .inactive-sidebar .addonss-sortables {
+    min-height: 42px;
+    padding: 0;
+    background: transparent;
+    margin: 0;
+    position: relative;
+}
+
+/* addonss Right */
+
+div#addonss-right:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+div#addonss-right .sidebars-column-1,
+div#addonss-right .sidebars-column-2 {
+    max-width: 450px;
+}
+
+div#addonss-right .addonss-holder-wrap {
+    margin: 10px 0 0 0;
+}
+
+div#addonss-right .sidebar-description {
+    min-height: 20px;
+    margin-top: -5px;
+}
+
+div#addonss-right .sidebar-name h3 {
+    padding: 15px 7px;
+}
+
+div#addonss-right .sidebar-name .sidebar-name-arrow:before {
+    right: 0;
+    top: 4px;
+}
+
+div#addonss-right .addons-top {
+    padding: 0;
+}
+
+div#addonss-right .addonss-sortables {
+    padding: 0 8px;
+    margin-bottom: 9px;
+    position: relative;
+    min-height: 123px;
+}
+
+div#addonss-right .closed .addonss-sortables {
+    min-height: 0;
+    margin-bottom: 0;
+}
+
+.sidebar-name .spinner {
+    float: none;
+    position: relative;
+    top: -2px;
+    margin: -5px 5px;
+}
+
+/* Dragging a addons over a closed sidebar */
+#addonss-right .addonss-holder-wrap.addons-hover {
+    border-color: #777;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Accessibility Mode */
+.addonss_access #addonss-left .addons .addons-top {
+    cursor: auto;
+}
+
+.addonss_access #wpwrap .addonss-holder-wrap.closed .sidebar-description,
+.addonss_access #wpwrap .addonss-holder-wrap.closed .addons,
+.addonss_access #wpwrap .addons-control-edit {
+    display: block;
+}
+
+.addonss_access #addonss-left .addons .addons-top:hover,
+.addonss_access #addonss-right .addons .addons-top:hover {
+    border-color: #ddd;
+}
+
+#available-addonss .addons-control-edit .edit,
+#addonss-left .inactive-sidebar .addons-control-edit .add,
+#addonss-right .addons-control-edit .add {
+    display: none;
+}
+
+.addons-control-edit {
+    display: block;
+    color: #666;
+    background: #EEE;
+    padding: 0 15px;
+    line-height: 43px;
+    border-left: 1px solid #DDD;
+}
+
+#addonss-left .addons-control-edit:hover,
+#addonss-right .addons-control-edit:hover {
+    color: #fff;
+    background: #444;
+    border-left: 0;
+    outline: 1px solid #444;
+}
+
+.addonss-holder-wrap .sidebar-name,
+.addonss-holder-wrap .sidebar-description {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.editaddons {
+    margin: 0 auto;
+}
+
+.editaddons .addons-inside {
+    display: block;
+    padding: 0 15px;
+}
+
+.editaddons .addons-control-actions {
+    margin-top: 20px;
+}
+
+.js .addonss-holder-wrap.closed .addons,
+.js .addonss-holder-wrap.closed .sidebar-description,
+.js .closed br.clear {
+    display: none;
+}
+
+.js .addonss-holder-wrap.closed .addons.ui-sortable-helper {
+    display: block;
+}
+
+/* Hide addons Settings by Default */
+.addons-inside,
+.addons-description {
+    display: none;
+}
+
+.addons-inside {
+    background: #fff;
+}
+
+/* Dragging addonss over the available addons area show's a "Deactivate" message */
+#removing-addons {
+    display: none;
+    font-weight: normal;
+    padding-left: 15px;
+    font-size: 12px;
+    line-height: 1;
+    color: black;
+}
+
+.js #removing-addons {
+    color: #770;
+}
+
+.addons-control-noform,
+#access-off,
+.addonss_access .addons-action,
+.addonss_access .sidebar-name-arrow,
+.addonss_access #access-on,
+.addonss_access .addons-holder .description,
+.no-js .addons-holder .description {
+    display: none;
+}
+
+.addonss_access .addons-holder,
+.addonss_access #addons-list {
+    padding-top: 10px;
+}
+
+.addonss_access #access-off {
+    display: inline;
+}
+
+.addonss_access .sidebar-name,
+.addonss_access .addons .addons-top {
+    cursor: default;
+}
+
+
+/* addonss Area Chooser */
+.addons-liquid-left #addonss-left.chooser #available-addonss .addons,
+.addons-liquid-left #addonss-left.chooser .inactive-sidebar {
+    -webkit-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
+}
+
+.addons-liquid-left #addonss-left.chooser #available-addonss .addons,
+.addons-liquid-left #addonss-left.chooser .inactive-sidebar {
+    /* -webkit-filter: blur(1px); */
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.addons-liquid-left #addonss-left.chooser #available-addonss .addons-in-question {
+    /* -webkit-filter: none; */
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.addonss-chooser ul,
+#addonss-left .addons-in-question .addons-top,
+#available-addonss .addons-top:hover,
+div#addonss-right .addons-top:hover,
+#addonss-left .addons-top:hover {
+    border-color: #999;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.addonss-chooser ul.addonss-chooser-sidebars {
+    margin: 0;
+    list-style-type: none;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.addonss-chooser {
+    display: none;
+}
+
+.addonss-chooser ul {
+    border: 1px solid #ccc;
+}
+
+.addonss-chooser li {
+    padding: 10px 15px 10px 35px;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    -webkit-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+.addonss-chooser li:hover,
+.addonss-chooser li:focus {
+    background: rgba(255,255,255,0.7);
+}
+
+.addonss-chooser li:focus:before {
+    content: '\f147';
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 26px/1 'dashicons';
+    color: #999;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+.addonss-chooser li:last-child {
+    border: none;
+}
+
+.addonss-chooser li.addonss-chooser-selected {
+    background: #770;
+    color: #fff;
+}
+
+.addonss-chooser li.addonss-chooser-selected:before,
+.addonss-chooser li.addonss-chooser-selected:focus:before {
+    content: '\f147';
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 26px/1 'dashicons';
+    color: #fff;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+.addonss-chooser .addonss-chooser-actions {
+    padding: 10px 0 12px 0;
+    text-align: center;
+}
+
+.addonss-chooser button {
+    margin-right: 5px;
+}
+
+#available-addonss .addons .addons-top {
+    cursor: pointer;
+}
+
+#available-addonss .addons.ui-draggable-dragging .addons-top {
+    cursor: move;
+}
+
+/* =Media Queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+    div.addons-liquid-left {
+        width: 100%;
+        float: none;
+        border-right: none;
+        padding-right: 0;
+    }
+
+    #addonss-left .sidebar-name {
+        margin-right: 0;
+    }
+
+    #addonss-left #available-addonss .addons-top {
+        margin-right: 0;
+    }
+
+    #addonss-left .inactive-sidebar .addonss-sortables {
+        margin-right: 0;
+    }
+
+    div.addons-liquid-right {
+        width: 100%;
+        float: none;
+    }
+
+    div.addons {
+        margin: 0 auto 10px !important;
+        max-width: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div.addons {
+        max-width: 320px;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    #addonss-left #available-addonss .addons {
+        width: 49%;
+        float: left;
+    }
+
+    .addons.ui-draggable-dragging {
+        min-width: 49%;
+    }
+
+    #addonss-left #available-addonss .addons:nth-child(even) {
+        float: right;
+    }
+
+    #addonss-right .sidebars-column-1,
+    #addonss-right .sidebars-column-2 {
+        float: left;
+        width: 49%;
+    }
+
+    #addonss-right .sidebars-column-1 {
+        margin-right: 2%;
+    }
+
+    #addonss-right.single-sidebar .sidebars-column-1,
+    #addonss-right.single-sidebar .sidebars-column-2 {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}

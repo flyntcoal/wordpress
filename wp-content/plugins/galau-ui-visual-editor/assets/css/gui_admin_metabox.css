@@ -1,0 +1,68 @@
+/** css for gui_templates Toolbox **/
+
+#postbox-container-1 #gui_metabox_gui_templates th, 
+#postbox-container-1 #gui_metabox_gui_templates td{ 
+	display: block;
+	padding: 0px;
+}
+
+
+/** css for description **/
+#gui_postmeta_description{ 
+	padding: 6px 12px;
+	height: 34px;
+	min-width: 75%;
+}
+/** left position **/
+#postbox-container-1 #gui_postmeta_description{ 
+	width: 100%;
+}
+/** right position **/
+#postbox-container-2 #gui_postmeta_description{ 
+	min-width:25em; 
+}
+
+
+/** css for HTML **/
+#gui_postmeta_html{ 
+	padding: 6px 12px;
+	height: 102px;
+}
+/** left position **/
+#postbox-container-1 #gui_postmeta_html{ 
+	width: 100%; 
+}
+/** right position **/
+#postbox-container-2 #gui_postmeta_html{ 
+	min-width:100%; 
+}
+
+
+/** css for css **/
+#gui_postmeta_css{ 
+	padding: 6px 12px;
+	height: 102px;
+}
+/** left position **/
+#postbox-container-1 #gui_postmeta_css{ 
+	width: 100%; 
+}
+/** right position **/
+#postbox-container-2 #gui_postmeta_css{ 
+	min-width:100%; 
+}
+
+
+/** css for JS **/
+#gui_postmeta_js{ 
+	padding: 6px 12px;
+	height: 102px;
+}
+/** left position **/
+#postbox-container-1 #gui_postmeta_js{ 
+	width: 100%; 
+}
+/** right position **/
+#postbox-container-2 #gui_postmeta_js{ 
+	min-width:100%; 
+}

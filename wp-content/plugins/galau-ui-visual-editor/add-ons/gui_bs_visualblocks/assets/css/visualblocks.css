@@ -1,0 +1,121 @@
+.gui_bs_visualblocks .container,
+.gui_bs_visualblocks .container-fluid,
+.gui_bs_visualblocks .row,
+.gui_bs_visualblocks .col-md-1,
+.gui_bs_visualblocks .col-md-2,
+.gui_bs_visualblocks .col-md-3,
+.gui_bs_visualblocks .col-md-4,
+.gui_bs_visualblocks .col-md-5,
+.gui_bs_visualblocks .col-md-6,
+.gui_bs_visualblocks .col-md-7,
+.gui_bs_visualblocks .col-md-8,
+.gui_bs_visualblocks .col-md-9,
+.gui_bs_visualblocks .col-md-10,
+.gui_bs_visualblocks .col-md-11,
+.gui_bs_visualblocks .col-md-12,
+.gui_bs_visualblocks .carousel-inner,
+.gui_bs_visualblocks .carousel-caption,
+.gui_bs_visualblocks .carousel-indicators,
+.gui_bs_visualblocks .carousel-control {
+  border: 1px dashed #bbb;
+  padding-top: 20px;
+}
+.gui_bs_visualblocks .container:before,
+.gui_bs_visualblocks .container-fluid:before,
+.gui_bs_visualblocks .row:before,
+.gui_bs_visualblocks .col-md-1:before,
+.gui_bs_visualblocks .col-md-2:before,
+.gui_bs_visualblocks .col-md-3:before,
+.gui_bs_visualblocks .col-md-4:before,
+.gui_bs_visualblocks .col-md-5:before,
+.gui_bs_visualblocks .col-md-6:before,
+.gui_bs_visualblocks .col-md-7:before,
+.gui_bs_visualblocks .col-md-8:before,
+.gui_bs_visualblocks .col-md-9:before,
+.gui_bs_visualblocks .col-md-10:before,
+.gui_bs_visualblocks .col-md-11:before,
+.gui_bs_visualblocks .col-md-12:before,
+.gui_bs_visualblocks .carousel-inner:before,
+.gui_bs_visualblocks .carousel-caption:before,
+.gui_bs_visualblocks .carousel-indicators:before,
+.gui_bs_visualblocks .carousel-control:before {
+  font-size: 9px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+.gui_bs_visualblocks .container:before {
+  content: 'container';
+}
+.gui_bs_visualblocks .container-fluid:before {
+  content: 'container-fluid';
+}
+.gui_bs_visualblocks .row:before {
+  content: 'row';
+}
+.gui_bs_visualblocks .col-md-1:before {
+  content: 'col-md-1';
+}
+.gui_bs_visualblocks .col-md-2:before {
+  content: 'col-md-2';
+}
+.gui_bs_visualblocks .col-md-3:before {
+  content: 'col-md-3';
+}
+.gui_bs_visualblocks .col-md-4:before {
+  content: 'col-md-4';
+}
+.gui_bs_visualblocks .col-md-5:before {
+  content: 'col-md-5';
+}
+.gui_bs_visualblocks .col-md-6:before {
+  content: 'col-md-6';
+}
+.gui_bs_visualblocks .col-md-7:before {
+  content: 'col-md-7';
+}
+.gui_bs_visualblocks .col-md-8:before {
+  content: 'col-md-8';
+}
+.gui_bs_visualblocks .col-md-9:before {
+  content: 'col-md-9';
+}
+.gui_bs_visualblocks .col-md-10:before {
+  content: 'col-md-10';
+}
+.gui_bs_visualblocks .col-md-11:before {
+  content: 'col-md-11';
+}
+.gui_bs_visualblocks .col-md-12:before {
+  content: 'col-md-12';
+}
+.gui_bs_visualblocks .carousel-inner:before {
+  content: 'carousel-inner';
+}
+.gui_bs_visualblocks .carousel-caption:before {
+  content: 'carousel-caption';
+}
+.gui_bs_visualblocks .carousel-indicators:before {
+  content: 'carousel-indicators';
+}
+.gui_bs_visualblocks .carousel-control:before {
+  content: 'carousel-control';
+}
+.gui_bs_visualblocks .panel:after,
+.gui_bs_visualblocks .alert:after,
+.gui_bs_visualblocks .table:after {
+  font-size: 9px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #0A6919;
+}
+.gui_bs_visualblocks .panel:after {
+  content: 'Bootstrap Panel';
+}
+.gui_bs_visualblocks .alert:after {
+  content: 'Bootstrap Alert';
+}
+.gui_bs_visualblocks .table:after {
+  content: 'Bootstrap Table';
+}

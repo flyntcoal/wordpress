@@ -1,0 +1,18 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - Foundation Quicktags</name>
+	<version>1.16.02.28</version>
+	<license>Commercial</license>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Galau UI - Foundation Quicktags is a TinyMCE plugin that allow create and edit container, row, column and shortcut that use foundation framework</description>
+	<tags>plugin, tinymce, foundation, grid, column, row</tags>
+	<preferences>
+		<preference name="id" value="gui_fi_quicktags"></preference>
+		<preference name="framework" value="foundation"></preference>
+		<preference name="path" value="add-ons/gui_fi_quicktags/plugin.min.js"></preference>
+		<preference name="button" value="gui_fi_quicktags gui_fi_row gui_fi_column"></preference>
+        <preference name="menu" value="gui_fi_quicktags"></preference>
+        <preference name="gui_fi_quicktags" value="{toolbar_text:true,css:{exist:true,external:gui_foundation_url}}"></preference>
+	</preferences>
+</widget>

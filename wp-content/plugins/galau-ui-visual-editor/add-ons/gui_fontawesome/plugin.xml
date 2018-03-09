@@ -1,0 +1,18 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - FontAwesome</name>
+	<version>1.16.02.28</version>
+	<license>Commercial</license>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Galau UI - FontAwesome is a TinyMCE plugin that allow create and edit icon that use FontAwesome</description>
+	<tags>plugin, tinymce, foundation, label</tags>
+	<preferences>
+		<preference name="id" value="gui_fontawesome"></preference>
+		<preference name="framework" value="fontawesome"></preference>
+		<preference name="path" value="add-ons/gui_fontawesome/plugin.min.js"></preference>
+		<preference name="button" value="gui_fontawesome"></preference>
+        <preference name="menu" value="gui_fontawesome"></preference>
+        <preference name="gui_fontawesome" value="{menu:true,toolbar_text:true,css:{exist:true,external:gui_fontawesome_url}}"></preference>
+	</preferences>
+</widget>

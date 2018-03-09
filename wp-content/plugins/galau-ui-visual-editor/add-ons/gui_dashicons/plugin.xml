@@ -1,0 +1,18 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - Dashicons</name>
+	<version>1.16.02.28</version>
+	<license>Commercial</license>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Galau UI - Dashicons is a TinyMCE plugin that allow create icons that use WordPress Dashboard</description>
+	<tags>plugin, tinymce, icon, dashicons, wordpress</tags>
+	<preferences>
+		<preference name="id" value="gui_dashicons"></preference>
+		<preference name="framework" value="dashicons"></preference>
+		<preference name="path" value="add-ons/gui_dashicons/plugin.min.js"></preference>
+		<preference name="button" value="gui_dashicons"></preference>
+        <preference name="menu" value="gui_dashicons"></preference>
+        <preference name="gui_dashicons" value="{menu:true,toolbar_text:true,css:{exist:true,external:gui_dashicons_url}}"></preference>
+	</preferences>
+</widget>

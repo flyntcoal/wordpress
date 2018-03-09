@@ -1,0 +1,16 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - Advanced Toolbars</name>
+	<version>1.16.02.28</version>
+	<license>Commercial</license>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Galau UI - Animate CSS is a TinyMCE plugin used for show and hidden toolbar</description>
+	<tags>plugin, tinymce, show, hidden, toolbar, menu</tags>
+	<preferences>
+		<preference name="id" value="gui_advtoolbars"></preference>
+		<preference name="framework" value="galau_ui"></preference>
+		<preference name="path" value="add-ons/gui_advtoolbars/plugin.min.js"></preference>
+		<preference name="menu" value="gui_advtoolbars"></preference>
+	</preferences>
+</widget>

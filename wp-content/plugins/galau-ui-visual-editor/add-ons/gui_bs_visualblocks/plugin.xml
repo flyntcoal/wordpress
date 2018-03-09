@@ -1,0 +1,18 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - Bootstrap Visualblocks</name>
+	<version>1.16.02.28</version>
+	<license>Commercial</license>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Galau UI - Bootstrap Visualblocks  is a TinyMCE plugin  for display grid bootstrap</description>
+	<tags>plugin, tinymce, grid, view, block, bootstrap</tags>
+	<preferences>
+		<preference name="id" value="gui_bs_visualblocks"></preference>
+		<preference name="framework" value="bootstrap"></preference>
+		<preference name="path" value="add-ons/gui_bs_visualblocks/plugin.min.js"></preference>
+		<preference name="button" value="gui_bs_visualblocks"></preference>
+        <preference name="menu" value="gui_bs_visualblocks"></preference>
+        <preference name="gui_bs_visualblocks" value="{default_state:true,toolbar_text:true,css:{exist:true,external:gui_bootstrap_url}}"></preference>
+	</preferences>
+</widget>

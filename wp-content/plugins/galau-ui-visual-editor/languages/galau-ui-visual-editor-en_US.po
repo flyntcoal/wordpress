@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GUI - Visual Editor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Feb 11 2016 17:08:15 GMT+0700 (SE Asia Standard Time)\n"
+"PO-Revision-Date: Tue Mar 01 2016 17:05:10 GMT+0700 (SE Asia Standard Time)\n"
+"Last-Translator: admin <admin@wp.org>\n"
+"Language-Team: \n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "GUI - Visual Editor"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://visual-editor.com"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"GUI-VisualEditor gives you the ability to edit without needing to learn HTML "
+"markup, and many front-end framework like as Bootstrap, Foundation, "
+"FontAwesome, Animate.CSS and other. GUI-VisualEditor has given the easy of "
+"visual editing because it has been equipped with various plugins."
+msgstr ""
+
+#. Author of the plugin
+msgid "JasmanXcrew"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:230 ../galau-ui-visual-editor.php:231 ../galau-
+#: ui-visual-editor.php:528
+msgid "Visual Editor"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:390
+msgid "edit"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:391
+msgid "add"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:404 ../galau-ui-visual-editor.php:1930
+msgid "Code"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:410
+msgid "Available"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:413
+msgid "Separator"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:414
+msgid "Clear"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:415
+msgid "Reset"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:431
+msgid "Delete"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:433
+msgid "Close"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:436
+msgid "Save"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:453 ../galau-ui-visual-editor.php:1059 ../galau-
+#: ui-visual-editor.php:1067
+msgid "Editor"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:458 ../galau-ui-visual-editor.php:1521 ../galau-
+#: ui-visual-editor.php:1653
+msgid "Add Ons"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:463
+msgid "Toolbars"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:474
+msgid "Google Fonts"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:479
+msgid "Templates"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:488
+msgid "Custom CSS"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:492
+msgid "Support"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:529
+msgid ""
+"On this page you can manage the editor toolbar, addons active, or add custom "
+"css"
+msgstr ""
+
+#. id
+#: ../galau-ui-visual-editor.php:628
+msgid "Frontend Editor"
+msgstr ""
+
+#. id
+#: ../galau-ui-visual-editor.php:636
+msgid "TinyMCE via"
+msgstr ""
+
+#. id
+#: ../galau-ui-visual-editor.php:644 ../galau-ui-visual-editor.php:819
+msgid "URL Custom"
+msgstr ""
+
+#. id
+#: ../galau-ui-visual-editor.php:652
+msgid "Configuration"
+msgstr ""
+
+#. id
+#: ../galau-ui-visual-editor.php:668
+msgid "Frontend Framework"
+msgstr ""
+
+#. id
+#: ../galau-ui-visual-editor.php:675
+msgid "Force use"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:773
+msgid "Enable inline editing"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:795
+msgid "Enable Menu Bar"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:817
+msgid "Local Files"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:818
+msgid "Content Delivery Network"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:872
+msgid "Bootstrap Framework"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:894
+msgid "Foundation Framework"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:916
+msgid "Animate CSS"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:938
+msgid "FontAwesome Icon"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:960
+msgid "Foundation Icon"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:972
+msgid "Frontend editor setting as follow:"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:983
+msgid "Force template using framework as follow:"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1312
+msgid "Your WordPress using the framework as follows: "
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1314
+msgid "Please enable the add ons based on that framework. "
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1374
+msgid "Add ons successfully activated"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1383
+msgid "Add ons failed activated"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1398
+msgid ""
+"Add ons successfully deactivated, this will cause some of the toolbar does "
+"not work, please check <strong>the toolbar menu</strong>."
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1406
+msgid "Add ons failed deactivated"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1439
+msgid "add ons successfully deactivated."
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1456
+msgid "add ons successfully activated."
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1518 ../galau-ui-visual-editor.php:1650
+msgid "Select All"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1522 ../galau-ui-visual-editor.php:1654
+msgid "Description"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1523 ../galau-ui-visual-editor.php:1655 ../galau-
+#: ui-visual-editor.php:1742
+msgid "License"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1542 ../galau-ui-visual-editor.php:1661
+msgid "Framework"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1589 ../galau-ui-visual-editor.php:1671
+msgid "Active"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1594
+msgid "Deactive"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1616
+msgid "Show more details"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1627
+msgid "Version"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1627
+msgid "By"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1630
+msgid "Preview Add Ons "
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1630
+msgid "Preview"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1670 ../galau-ui-visual-editor.php:1721
+msgid "All"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1672
+msgid "Inactive"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1679 ../galau-ui-visual-editor.php:1694
+msgid "Select bulk action"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1681 ../galau-ui-visual-editor.php:1696
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1682 ../galau-ui-visual-editor.php:1697
+msgid "Activate"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1683 ../galau-ui-visual-editor.php:1698 ../galau-
+#: ui-visual-editor.php:1801
+msgid "Deactivate"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1685 ../galau-ui-visual-editor.php:1700
+msgid "Apply"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1740
+msgid "Name"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1741
+msgid "Designer"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1778
+msgid "You can add custom CSS to your templates blog using the CSS Editor bellow:"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1780
+msgid "Save Changes"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1801
+msgid "Editor toolbar available"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1806
+msgid ""
+"To activate a editor toolbar drag it to a sidebar or click on it. To "
+"deactivate a toolbar editor and delete its settings, drag it back."
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1826
+msgid "The first line toolbar"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1829 ../galau-ui-visual-editor.php:1843 ../galau-
+#: ui-visual-editor.php:1860 ../galau-ui-visual-editor.php:1874
+msgid "The toolbar area"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1840
+msgid "The second line toolbar"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1857
+msgid "The third line toolbar"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1871
+msgid "The fourth line toolbar"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1887
+msgid "Cancel"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:1888
+msgid "Add addons"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:2365 ../galau-ui-visual-editor.php:2380
+msgid "You are not allowed to edit this pages"
+msgstr ""
+
+#: ../galau-ui-visual-editor.php:2382
+msgid "This page has been successfully saved"
+msgstr ""
