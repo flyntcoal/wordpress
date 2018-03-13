@@ -85,8 +85,8 @@ if($businessCategoryArray != null){
 $searchBar = "";
 $searchBar.="<form method='get' style='background-color: #f2f2f2;height: 100px;width: 781px;'>";
 $searchBar.="<h2 style='font-size: 20px; color: #4671a9; font-weight:  bold; font-family: serif; position:  relative; left: 10px; top: 10px;'>Filter results by:</h2>";
-$searchBar.="<h3 style='font-size: 15px;font-weight:  bold;position:  relative;left: 10px;'>Category</h3>";
-$searchBar.="<h3 style='font-size: 15px;font-weight:  bold;position:  relative; left: 144px; top: -36px;'>Location(County)</h3>";
+$searchBar.="<h3 style='font-size: 15px;font-weight:  bold;position:  relative;left: 10px;'>Location(County)</h3>";
+$searchBar.="<h3 style='font-size: 15px;font-weight:  bold;position:  relative; left: 144px; top: -36px;'>Category</h3>";
 $searchBar.="<h3 style='font-size: 15px;font-weight:  bold;position:  relative; left: 383px; top: -72px;'>Business Name</h3>";
 $searchBar.="<div style='position:  relative; bottom:  77px; left:10px;'>";
 $searchBar.=$ddlCounty;

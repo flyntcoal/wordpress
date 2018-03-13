@@ -41,7 +41,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="navbar-header">
-				<a href="/" class="navbar-brand text-hide"> BuyMissouri Logo<img src="/wordpress/wp-content/img/buymologowithtext.png" alt="BuyMissouri Logo" class="col-xs-9" id="logo" style="
+				<a href="/wordpress/" class="navbar-brand text-hide"> BuyMissouri Logo<img src="/wordpress/wp-content/img/buymologowithtext.png" alt="BuyMissouri Logo" class="col-xs-9" id="logo" style="
     width: 450px;
 "></a>
 				<div class="clearfix visible-xs"></div>  
