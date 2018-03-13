@@ -24,8 +24,9 @@
 				</div>
 				<div class="col-md-6 col-xs-12 margin-bottom-5"style="position:  relative; left: 200px; top: -110px;">
 					<ul>
-						<li style="font-size:20px;">Subscribe to updates from the<br/>Lieutenant Governor</li>
+						<li style="font-size: 13px;width: 195px;">Subscribe to updates from the<br/>Lieutenant Governor</li>
 						<li style="margin-top:10px;"><form><input type="text" name="email"></form></li>
+						<img src="/wordpress/wp-content/img/parsons-img.png" style="position:  relative; left: 175px; bottom: 147px;"/>
 					</ul>
 				</div>
 			</div>
