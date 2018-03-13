@@ -1,9 +1,9 @@
 <?php
 /*
- * Plugin Name: Twitter Tweets
- * Version: 1.7.1
+ * Plugin Name: Weblizar Twitter Widget
+ * Version: 1.7.3
  * Description: Display your latest tweets on WordPress blog from your Twitter account.
- * Author: WebLizar
+ * Author: Weblizar
  * Author URI: http://www.weblizar.com/
  * Plugin URI: http://www.weblizar.com/plugins/
  */
@@ -21,7 +21,7 @@ class WeblizarTwitter extends WP_Widget {
 	function __construct() {
 		parent::__construct(
 		'weblizar_twitter', // Base ID
-		'Twitter Tweets', // Name
+		'Weblizar Twitter Widget', // Name
 		array( 'description' => __( 'Display latest tweets from your Twitter account', twitter_tweets )));
 	}
     
@@ -245,10 +245,10 @@ add_action( 'widgets_init', 'WeblizarTwitterWidget' );
 /***
  * Shortcode Settings Menu
  */
-function  Twitter_Menu()  {
-	$AdminMenu = add_menu_page( 'Twitter Tweets', 'Twitter Tweets', 'administrator', 'Twitter', 'Twitter_by_weblizar_page_function', "dashicons-wordpress-alt");
+function  Weblizar_Twitter_Menu()  {
+	$AdminMenu = add_menu_page( 'Weblizar Twitter Widget', 'Weblizar Twitter Widget', 'administrator', 'Twitter', 'Twitter_by_weblizar_page_function', "dashicons-wordpress-alt");
 }
-add_action('admin_menu','Twitter_Menu');
+add_action('admin_menu','Weblizar_Twitter_Menu');
 function Twitter_by_weblizar_page_function() {
 	wp_enqueue_script('jquery');
     wp_enqueue_style('weblizar-option-twiiter-style-css', WEBLIZAR_TWITTER_PLUGIN_URL .'css/weblizar-option-twiiter-style.css');

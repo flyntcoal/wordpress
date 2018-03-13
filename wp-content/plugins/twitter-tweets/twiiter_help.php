@@ -591,18 +591,31 @@ if(isset($_REQUEST['twitter-page-user_name'])) {
 				<h2>Premium Themes </h2>
 				<br>
 				<ol id="weblizar_product">
-					<li><a href="http://weblizar.com/themes/enigma-premium/">Enigma </a> </li>
-					<li><a href="http://weblizar.com/themes/weblizar-premium-theme/">Weblizar </a></li>					
-					<li><a href="http://weblizar.com/themes/guardian-premium-theme/">Guardian </a></li>
-					<li><a href="http://weblizar.com/plugins/green-lantern-premium-theme/">Green Lantern</a> </li>
-					<li><a href="https://weblizar.com/themes/creative-premium-theme/">Creative </a> </li>
-					<li><a href="https://weblizar.com/themes/incredible-premium-theme/">Incredible </a></li>
+					<li><a href="http://weblizar.com/themes/enigma-premium/">Enigma Premium Advance</a> </li>
+					<li><a href="https://weblizar.com/themes/realestate-wordpress-premium-theme/">Real Estate Premium </a></li>
+					<li><a href="https://weblizar.com/themes/personal-premium-theme/">Personal Premium  </a></li>
+					<li><a href="https://weblizar.com/themes/newsera-premium-wordpress-theme/">Newsera Premium</a></li>
+					<li><a href="https://weblizar.com/themes/fashionair-premium/">Fashionair Premium </a></li>
+					<li><a href="https://weblizar.com/themes/corporal-premium/">Corporal Premium</a></li>
+					<li><a href="https://weblizar.com/themes/explora-premium/">Explora Premium</a></li>
+					<li><a href="https://weblizar.com/themes/scoreline-premium/">Scoreline Premium</a></li>
+					<li><a href="https://weblizar.com/themes/beautyspa-premium/">Beautyspa Premium</a></li>
+					<li><a href="https://weblizar.com/themes/healthcare/">Healthcare Premium</a></li>
+					<li><a href="http://weblizar.com/themes/guardian-premium-theme/">Guardian Premium</a></li>
+					<li><a href="http://weblizar.com/plugins/green-lantern-premium-theme/">Green Lantern Premium</a> </li>
+					<li><a href="https://weblizar.com/themes/creative-premium-theme/">Creative Premium</a> </li>
+					<li><a href="https://weblizar.com/themes/incredible-premium-theme/">Incredible Premium</a></li>
+					
 				</ol>
 			</div>
 			<div class="col-lg-6">
 				<h2>Pro Plugins</h2>
 				<br>
 				<ol id="weblizar_product">
+					<li><a href="https://weblizar.com/plugins/facebook-feed-pro/">Facebook Feed Pro</a></li>
+					<li><a href="https://weblizar.com/plugins/pinterest-feed-pro/">Pinterest Feed Pro</a></li>
+					<li><a href="https://weblizar.com/plugins/appointment-scheduler-pro/">Appointment Scheduler Pro</a></li>
+					<li><a href="https://weblizar.com/plugins/seo-image-optimizer-pro/">SEO Image Optimizer Pro</a></li>					
 					<li><a href="http://weblizar.com/plugins/responsive-photo-gallery-pro/">Responsive Photo Gallery</a></li>
 					<li><a href="http://weblizar.com/plugins/ultimate-responsive-image-slider-pro/">Ultimate Responsive Image Slider</a></li>
 					<li><a href="http://weblizar.com/plugins/responsive-portfolio-pro/">Responsive Portfolio</a></li>

@@ -1,7 +1,7 @@
 <div class="wrap" id="weblizar_wrap">		
 	<div id="content_wrap">			
 		<div class="weblizar-header">
-			<h2><span class="dashicons dashicons-twitter" style="width: auto;"> Twitter By Weblizar</span></h2>
+			<h2><span class="dashicons dashicons-twitter" style="width: auto;"> Weblizar Twitter Widget</span></h2>
 			<br>
 			<div class="weblizar-submenu-links" id="weblizar-submenu-links">
 				<ul>
