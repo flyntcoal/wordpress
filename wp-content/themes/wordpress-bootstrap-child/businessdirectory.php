@@ -143,15 +143,15 @@ if($businessSearchResults != null){
 		$business = $businessSearchResults[$lc]; //individual County
 		$businessList.='<h3 style="font-weight:  bold; border-bottom: 2px solid #DCDCDC;"> '.$business->NAME.'</h3>';
 		$businessList.='<span style="position:  relative; left: 400px; font-size: 18px;">';
-		$businessList.='<p> '.$business->ABOUT_ME.'</p>';
+		$businessList.='<p style="font-size: 13px; max-width: 390px;"> '.$business->ABOUT_ME.'</p>';
 		$businessList.='<span style="font-weight:  bold;">';
 		$businessList.='<p style="margin: 0px;"> '.$business->ADDRESS.'</p>';
-		$businessList.='<p style="margin: 0px;"> '.$business->CITY.", ".$business->STATE." ".$business->ZIP_CODE.'</p>';
+		$businessList.='<p style="margin: 0px;"> '.$business->CITY.", ".$business->STATE_ABB." ".$business->ZIP_CODE.'</p>';
 		$businessList.='<p style="margin: 0px;"> '.$business->PHONE.'</p>';
 		$businessList.='<p style="margin: 0px;"> '.$business->WEBSITE_URL.'</p>';
 		$businessList.='</span>';
 		$businessList.='</span>';
-		$businessList.='<img src="/wordpress/wp-content/img/business_logos/'.$business->LOGO.'" alt="'.$business->LOGO.'" style="position: relative;bottom: 100px;height: 125px;width: auto;max-width: 370px;">';
+		$businessList.='<img src="/wordpress/wp-content/img/business_logos/'.$business->LOGO.'" alt="'.$business->LOGO.'" style="position: relative;bottom: 170px;height: 125px;width: auto;max-width: 370px;margin-bottom: -100px;">';
 		$businessList.='</span>';
 	}//end of for loop 
 	$businessList.="</form>";
