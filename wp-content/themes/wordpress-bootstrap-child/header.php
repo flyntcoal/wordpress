@@ -35,9 +35,9 @@
 <link rel="stylesheet" type="text/css" href="/wp-content/uploads/2015/02/flexslider.css">
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> style="background:url(/wordpress/wp-content/img/pixels.png)">
 <!--googleoff: snippet-->
-<div id="header-region" class="navbar navbar-default pagetemp-header" role="banner" style="background: url(/wordpress/wp-content/img/capital-bkrd-blue.jpg)no-repeat;width: 100%;height:  auto;background-color: #00004d;background-position:  center;">
+<div id="header-region" class="navbar navbar-default pagetemp-header" role="banner" style="background: url(/wordpress/wp-content/img/capital-bkrd-blue.jpg)no-repeat;width: 100%;height:  auto;background-color: #11305c;background-position:  center;">
 	<div class="container">
 		<div class="row">
 			<div class="navbar-header">

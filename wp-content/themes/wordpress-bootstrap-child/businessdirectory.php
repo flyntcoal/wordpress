@@ -24,8 +24,38 @@
 <?php
 $businessSearchResults = '';
 $businessName='';
+$searchFlag = 'false';
+$selectedCountyEID = '';
+function formatPhoneNumber($s) {
+	$rx = "/
+		(1)?\D*     # optional country code
+		(\d{3})?\D* # optional area code
+		(\d{3})\D*  # first three
+		(\d{4})     # last four
+		(?:\D+|$)   # extension delimiter or EOL
+		(\d*)       # optional extension
+	/x";
+	preg_match($rx, $s, $matches);
+	if(!isset($matches[0])) return $s;
+	
+	$country = $matches[1];
+	$area = $matches[2];
+	$three = $matches[3];
+	$four = $matches[4];
+	$ext = $matches[5];
+	
+	$out = "$three-$four";
+	if(!empty($area)) $out = "$area-$out";
+	if(!empty($country)) $out = "+$country-$out";
+	if(!empty($ext)) $out .= "x$ext";
+	
+	// check that no digits were truncated
+	// if (preg_replace('/\D/', '', $s) != preg_replace('/\D/', '', $out)) return false;
+	return $out;
+	}
 
-if($_GET['businessName'] && !empty($_GET['businessName'])) {
+
+	if($_GET['businessName'] && !empty($_GET['businessName'])) {
 	$businessName = $_GET['businessName'];
 	//echo $_GET['businessName'];
 }
@@ -39,6 +69,12 @@ if($_GET['County'] && !empty($_GET['County'])) {
 	$selectedCountyEID = $_GET['County'];
 	//echo $_GET['County'];
 }
+
+if($_GET['search'] && !empty($_GET['search'])) {
+	$searchFlag = $_GET['search']; //checks to see if this is a page load or a search postback 
+	//echo $_GET['County'];
+}
+
 
 //gets missouri counties and puts them into a drop down list
 $countyArray = $wpdb->get_results( "SELECT EID, COUNTY_NAME FROM COUNTY ORDER BY COUNTY_NAME;" );
@@ -92,7 +128,7 @@ $searchBar.="<div style='position:  relative; bottom:  77px; left:10px;'>";
 $searchBar.=$ddlCounty;
 $searchBar.=$ddlBusinessCategory;
 $searchBar.="<input type ='text' name = 'businessName' value='".$businessName."' />";
-$searchBar.="<button type='submit' style='background-color: #bd272f;border: none;height: 30px;border-radius: 5px;margin-left: 10px;color: #fff;' >Search</button>";
+$searchBar.="<button type='submit' name='search' value='true' style='background-color: #bd272f;border: none;height: 30px;border-radius: 5px;margin-left: 10px;color: #fff;' >Search</button>";
 $searchBar.="</div>";
 $searchBar.="</form>";
 $searchBar.="<h2 style='color: #4671a9;margin-top: 25px;margin-bottom: 25px; font-weight:bold;'>Category Name/Location Results</h2>";
@@ -114,14 +150,25 @@ if($_GET['County'] && !empty($_GET['County'])) {
 	//echo $_GET['County'];
 }
 
-$sqlQueryBusinessSearch = "SELECT B.*, BL.* 
-FROM BUSINESS B, COUNTY C, BUISNESS_lOCATION BL
-WHERE B.ACTIVE = TRUE 
-AND BL.BUSINESS_EID = B.EID 
-AND C.EID = BL.COUNTY_EID 
-AND C.EID = IF(%d = '', C.EID, %d) 
-AND B.CATEGORY_EID = IF(%d = '', B.CATEGORY_EID, %d) 
-AND B.NAME LIKE IF(%s = '', B.NAME, '%' + %s + '%');";
+if($searchFlag == 'false'){
+	for($lc = 0; $lc < $numberOfCategories; $lc++) {//lc stands for loop control
+		$businessCategory = $businessCategoryArray[$lc];
+		$listOfCategories.='<a href="?BusinessCategory='.$businessCategory->EID.'&search=true">'.$businessCategory->CATEGORY.'</a>';
+		$listOfCategories.='<br />';		
+	}//end of for loop
+
+	echo $listOfCategories;
+   }else {
+		$businessName = '%'.$businessName.'%';
+		$sqlQueryBusinessSearch = "SELECT B.*, BL.* 
+		FROM BUSINESS B, COUNTY C, BUSINESS_lOCATION BL
+		WHERE B.ACTIVE = TRUE 
+		AND BL.BUSINESS_EID = B.EID 
+		AND C.EID = BL.COUNTY_EID 
+		AND B.CATEGORY_EID = IF(%d = '', B.CATEGORY_EID, %d) 
+		AND C.EID = IF(%d = '', C.EID, %d) 
+		AND B.NAME LIKE %s;
+		";
 
 $businessSearchResults = $wpdb->get_results( $wpdb->prepare(	
 	$sqlQueryBusinessSearch
@@ -130,14 +177,13 @@ $businessSearchResults = $wpdb->get_results( $wpdb->prepare(
 	$selectedCategoryEID,  
 	$selectedCountyEID,
 	$selectedCountyEID,
-	$businessName,
 	$businessName
   ) );
 
 if($businessSearchResults != null){
 	$numberOfBusinesses = count($businessSearchResults);
+	$formattedPhoneNumber = '';
 	$businessList.='<div>';
-	$businessList.="<form action='/businesspage' method='GET'";
 	for($lc = 0; $lc < $numberOfBusinesses; $lc++) {//lc stands for loop control
 		$businessList.='<span style ="width:781px;">';
 		$business = $businessSearchResults[$lc]; //individual County
@@ -147,17 +193,17 @@ if($businessSearchResults != null){
 		$businessList.='<span style="font-weight:  bold;">';
 		$businessList.='<p style="margin: 0px;"> '.$business->ADDRESS.'</p>';
 		$businessList.='<p style="margin: 0px;"> '.$business->CITY.", ".$business->STATE_ABB." ".$business->ZIP_CODE.'</p>';
-		$businessList.='<p style="margin: 0px;"> '.$business->PHONE.'</p>';
+		$formattedPhoneNumber = formatPhoneNumber($business->PHONE);
+		$businessList.='<p style="margin: 0px;"> '.$formattedPhoneNumber.'</p>';
 		$businessList.='<p style="margin: 0px;"> '.$business->WEBSITE_URL.'</p>';
 		$businessList.='</span>';
 		$businessList.='</span>';
-		$businessList.='<img src="/wordpress/wp-content/img/business_logos/'.$business->LOGO.'" alt="'.$business->LOGO.'" style="position: relative;bottom: 170px;height: 125px;width: auto;max-width: 370px;margin-bottom: -100px;">';
+		$businessList.='<img src="/wordpress/wp-content/img/business_logos/'.$business->LOGO.'" alt="'.$business->LOGO.'" style="position: relative;bottom: 170px;max-height: 190px;width: auto;max-width: 370px;margin-bottom: -100px;">';
 		$businessList.='</span>';
 	}//end of for loop 
-	$businessList.="</form>";
 	$businessList.='</div>';
 }
-
+   }
 echo $businessList;
 ?></div>
 	</section> <!-- end article section -->

@@ -1,7 +1,7 @@
 <!--/PAGEWATCH-->
 <div id="footer" class="col-md-12">
 	<div class="state-seal-container"><img class="img-responsive state-seal-img" src="/wordpress/wp-content/img/seal.png" alt="Missouri State Seal"></div>
-	<div class="container">
+	<div class="container" style="width:100%;">
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
 				<div class="col-md-6 col-xs-12 margin-bottom-5" style="position:  relative; left: -200px;">
@@ -25,7 +25,7 @@
 				<div class="col-md-6 col-xs-12 margin-bottom-5"style="position:  relative; left: 200px; top: -110px;">
 					<ul>
 						<li style="font-size: 13px;width: 195px;">Subscribe to updates from the<br/>Lieutenant Governor</li>
-						<li style="margin-top:10px;"><form><input type="text" name="email"></form></li>
+						<li style="margin-top:10px;"><form><input id="emailAddress" type="email" style="color:#000"></form></li>
 						<img src="/wordpress/wp-content/img/parsons-img.png" style="position:  relative; left: 175px; bottom: 147px;"/>
 					</ul>
 				</div>
