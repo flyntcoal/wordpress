@@ -111,6 +111,7 @@
 						<li><a href="/wordpress/business-directory/">BUSINESS DIRECTORY</a></li>
 						<li><a href="/wordpress/business-spotlights/">BUSINESS SPOLIGHTS</a></li>
 						<li><a href="/wordpress/sign-up/">SIGN UP</a></li>
+						<li><a href="/wordpress/partners/">PARTNERS</a></li>
 						<li><a href="/wordpress/news-events/">NEWS & EVENTS</a></li>
 						<li><a href="/wordpress/contact-us/">CONTACT US</a></li>
 					</ul>
