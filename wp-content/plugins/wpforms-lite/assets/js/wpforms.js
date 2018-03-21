@@ -397,6 +397,19 @@
 				$this.parent().prevAll().andSelf().addClass( 'selected' );
 			});
 
+			// Checkbox/Radio/Payment checkbox: toggle selected state class.
+			$( document ).on( 'change', '.wpforms-field-checkbox input, .wpforms-field-radio input, .wpforms-field-payment-multiple input', function() {
+
+				var $this = $( this );
+
+				if ( 'radio' === $this.attr( 'type' ) ) {
+					$( this ).closest( 'ul' ).find( 'li' ).removeClass( 'wpforms-selected' );
+					$( this ).closest( 'li' ).addClass( 'wpforms-selected' );
+				} else {
+					$( this ).closest( 'li' ).toggleClass( 'wpforms-selected' );
+				}
+			})
+
 			// OptinMonster: initialize again after OM is finished.
 			// This is to accommodate moving the form in the DOM.
 			$(document).on('OptinMonsterAfterInject', function() {
