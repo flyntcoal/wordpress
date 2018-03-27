@@ -1,4 +1,4 @@
-<?php die(); ?>	<!doctype html>  
+<?php die(); ?> 	<!doctype html>  
 <!--[if IEMobile 7 ]> <html lang="en-US" id="arve"class="no-js iem7"> <![endif]-->
 <!--[if lt IE 7 ]> <html lang="en-US" id="arve" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en-US" id="arve" class="no-js ie7"> <![endif]-->
@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title></title>
+<title>  About</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Chrome, Firefox OS and Opera -->
 <meta name="theme-color" content="#294d7d">
@@ -70,10 +70,10 @@ var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast",
 <script type='text/javascript' src='http://localhost/wordpress/wp-content/themes/wordpress-bootstrap/bower_components/modernizer/modernizr.min.js'></script>
 <script type='text/javascript' src='http://localhost/wordpress/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/v4/mediaelement-and-player.min.js'></script>
 <link rel='https://api.w.org/' href='http://localhost/wordpress/wp-json/' />
-<link rel="canonical" href="http://localhost/wordpress/" />
-<link rel='shortlink' href='http://localhost/wordpress/' />
-<link rel="alternate" type="application/json+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2F&#038;format=xml" />
+<link rel="canonical" href="http://localhost/wordpress/about/" />
+<link rel='shortlink' href='http://localhost/wordpress/?p=22' />
+<link rel="alternate" type="application/json+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2Fabout%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2Fabout%2F&#038;format=xml" />
 <!-- This content is generated with the Easy Video Player plugin v1.1.7 - http://noorsplugin.com/wordpress-video-plugin/ --><script>flowplayer.conf.embed = false;flowplayer.conf.keyboard = false;</script><!-- Easy Video Player plugin --><script>
             WP_VIDEO_LIGHTBOX_VERSION="1.8.5";
             WP_VID_LIGHTBOX_URL="http://localhost/wordpress/wp-content/plugins/wp-video-lightbox";
@@ -126,7 +126,7 @@ var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast",
 <link rel="stylesheet" type="text/css" href="/wp-content/uploads/2015/02/flexslider.css">
 </head>
 
-<body class="home page-template-default page page-id-2 logged-in admin-bar no-customize-support" style="background:url(/wordpress/wp-content/img/pixels.png)">
+<body class="page-template page-template-about page-template-about-php page page-id-22 logged-in admin-bar no-customize-support" style="background:url(/wordpress/wp-content/img/pixels.png)">
 <!--googleoff: snippet-->
 <div id="header-region" class="navbar navbar-default pagetemp-header" role="banner" style="background: url(/wordpress/wp-content/img/capital-bkrd-blue.jpg)no-repeat;width: 100%;height:  auto;background-color: #11305c;background-position:  center;">
 	<div class="container">
@@ -219,36 +219,36 @@ var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast",
 ">
 		<div class="row">
 			<div class="col-md-12">
-				<div id="main" class="col-md-12 margin-bottom-25 main-ltgov" role="main">
+				<div id="main" class="col-md-12 margin-bottom-25 main-ltgov" role="main" style="height: 740px;">
 
 										<header>			
-							<div class="page-header"><h1></h1></div>
+							<div class="page-header"><h1>About</h1></div>
 						</header> <!-- end article header -->
-					<article id="post-2" class="col-md-8 margin-bottom-15 clearfix post-2 page type-page status-publish hentry" role="article" style="width: 100%;min-height: 500px;">
+					<article id="post-22" class="col-md-8 margin-bottom-15 clearfix post-22 page type-page status-publish hentry" role="article" style="width: 100%;min-height: 500px;">
 						
 						<section>
-							<div style="position: relative;top: -72px;border-bottom: 6px solid #BD272F;width: 1140px;right: 16px;">
-<video autoplay loop style="margin-bottom: -5px;"><source src="/wordpress/wp-content/img/BUYMOWEBCRAWL.mp4" type="video/mp4"></video><br />
-<!--[slideshow_deploy id='142']--></div>
-<div style="width: 750px;"><img class="size-full wp-image-106 alignleft" src="http://localhost/wordpress/wp-content/uploads/2018/02/buymologo-1.png" alt="" /><span style="font-size: 13.5pt;">Lieutenant Governor Mike Parson actively promotes Missouri-made products, services, and businesses. As a result, the Office of the Lieutenant Governor has created a national “Buy Missouri” economic development initiative to futher advocate for items made within the borders of Missouri and to promote to other states and the world the products, services, and businesses Missouri has to offer. Approved businesses will be listed on the business directory page.</span><br />
-<button style="background-color: #bd272f; border: none; height: 50px; border-radius: 15px; margin-top: 10px; position: relative;"><a style="color: #fff; font-weight: bold;" href="wordpress/sign-up">APPLY TO ENROLL YOUR BUSINESS</a></button></div>
-<div style="float: right; position: relative; right: 100px; bottom: 300px;"><a href="https://www.youtube.com/channel/UCwNFEbJTmALdxa3mfuSc3Ig"><img class="size-full wp-image-86" src="http://localhost/wordpress/wp-content/uploads/2018/02/pk-youtube.png" alt="" /></a><br />
+							<div style="/* float: left; */margin: 10px; width: 576px; font-size: 15px; position: relative; top: 5px;">BUY MISSOURI is a statewide initiative created to recognize<br />
+and promote Missouri companies and manufacturers to the<br />
+public, and strengthen our state’s economy. The more we<br />
+support and buy Missouri products, the better our entire<br />
+state will do! Missouri has hundreds of products made within our borders.<br />
+Our goal is to identify and compile these products so all<br />
+Missourians, as well as the Nation will know, which will help our state.</div>
+<div style="/* float: left; */margin: 10px; width: 576px; font-size: 15px; position: relative; top: 5px;"><span style="font-style: italic;">The Buy Missouri website was developed and designed in conjunction with Southwest Baptist University Computer Science Department by a team of three students in the 2018 class.</span></div>
+<div style="/* float: left; */margin: 10px; width: 576px; font-size: 15px; position: relative; top: 5px;">If you would like for your business to become a part of the BUY MISSOURI initiative,<br />
+please fill out the application for enrollment by clicking on the button below.<button style="background-color: #bd272f; border: none; height: 50px; border-radius: 15px; margin-top: 10px; position: relative;"><a style="color: #fff; font-weight: bold;" href="wordpress/sign-up">APPLY TO ENROLL YOUR BUSINESS</a></button></div>
+<div style="float: left; margin: 10px; width: 475px; position: relative; bottom: 385px; left: 500px;"><img class="size-full wp-image-111" src="http://localhost/wordpress/wp-content/uploads/2018/02/buymologo-1.png" alt="" /></div>
+<div style="float: right; position: absolute; right: 100px; top: 495px;"><a href="https://www.youtube.com/channel/UCwNFEbJTmALdxa3mfuSc3Ig"><img class="size-full wp-image-86" src="http://localhost/wordpress/wp-content/uploads/2018/02/pk-youtube.png" alt="" /></a><br />
 <a href="https://twitter.com/MOLtGov"><img class="alignnone size-full wp-image-74" style="right: -110px; position: relative; bottom: 60px;" src="http://localhost/wordpress/wp-content/uploads/2018/02/mp-twitter.png" alt="" /></a><br />
 <a href="https://www.facebook.com/MOLtGov/"><img class="alignnone size-full wp-image-81" style="position: relative; bottom: 85px;" src="http://localhost/wordpress/wp-content/uploads/2018/02/pk-facebook.png" alt="" /></a><br />
 <a href="mailto:ltgovinfo@ltgov.mo.gov"><img class="size-full wp-image-73" style="position: relative; bottom: 161px; right: -170px;" src="http://localhost/wordpress/wp-content/uploads/2018/02/mp-contact.png" alt="" /></a></div>
-<p><!--
-
-
-<div style="position: relative; left: 800px; bottom: 150px;"><a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/mikeparson?ref_src=twsrc%5Etfw">Tweets by mikeparson</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
---></p>
-<div style="background-color: #f0f8ff; width: 680px; height: 265px; padding: 20px; margin-top: 30px; font-style: italic; font-size: 17px;">
-<img class="alignnone wp-image-250 size-medium" style="max-height: 300px; max-width: 250px;" src="http://localhost/wordpress/wp-content/uploads/2018/03/m-power1-300x262.jpg" alt="" width="300" height="262" srcset="http://localhost/wordpress/wp-content/uploads/2018/03/m-power1-300x262.jpg 300w, http://localhost/wordpress/wp-content/uploads/2018/03/m-power1.jpg 330w" sizes="(max-width: 300px) 100vw, 300px" />
-<p style="font-weight: bold; position: relative; left: 265px; bottom: 220px; width: 60%;">“With BUY MISSOURI, our products will get the exposure that will lead to growth and increased revenues.”</p>
-<p style="position: relative; left: 360px; bottom: 210px;">Marisa Wiruhayarn, President<br />
-M-Power Enterprises LLC<br />
-Kansas City, MO</p>
+<div style="position: absolute; left: 799px; top: -15px; background-color: #f2f2f2; width: 325px; height: 500px; padding: 20px; /* margin-top: 30px; */font-style: italic; border-bottom: 3px solid #BD272F;">
+<h1 style="border: 0px; font-style: normal;">Business Testimonial</h1>
+<img class="alignnone wp-image-249 size-medium" style="max-height: 300px; max-width: 250px;" src="http://localhost/wordpress/wp-content/uploads/2018/03/hammons-300x262.jpg" alt="" width="300" height="262" srcset="http://localhost/wordpress/wp-content/uploads/2018/03/hammons-300x262.jpg 300w, http://localhost/wordpress/wp-content/uploads/2018/03/hammons.jpg 330w" sizes="(max-width: 300px) 100vw, 300px" />
+<p style="font-weight: bold; position: relative; width: 90%;">“Missouri is a solid place to do business, a solid place for people who do provide quality products.”</p>
+<p style="position: relative; left: 100px;">Brian Hammons, President<br />
+Hammons Products Company<br />
+Stockton, MO</p>
 </div>
 		
 						</section> <!-- end article section -->
@@ -352,8 +352,9 @@ var ctf = {"ajax_url":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php"}
 		<li id="wp-admin-bar-widgets"><a class="ab-item" href="http://localhost/wordpress/wp-admin/widgets.php">Widgets</a>		</li>
 		<li id="wp-admin-bar-menus"><a class="ab-item" href="http://localhost/wordpress/wp-admin/nav-menus.php">Menus</a>		</li>
 		<li id="wp-admin-bar-background" class="hide-if-customize"><a class="ab-item" href="http://localhost/wordpress/wp-admin/themes.php?page=custom-background">Background</a>		</li></ul></div>		</li>
-		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://localhost/wordpress/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fwordpress%2F">Customize</a>		</li>
-		<li id="wp-admin-bar-gui_editor_off"><a class="ab-item" href="http://localhost/wordpress?p=2&#038;edit=true"><span class="ab-icon"></span><span class="ab-label"> GUI - VisualEditor [OFF]</span></a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://localhost/wordpress/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fwordpress%2Fabout%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item" href="http://localhost/wordpress/wp-admin/update-core.php" title="4 Plugin Updates"><span class="ab-icon"></span><span class="ab-label">4</span><span class="screen-reader-text">4 Plugin Updates</span></a>		</li>
+		<li id="wp-admin-bar-gui_editor_off"><a class="ab-item" href="http://localhost/wordpress?p=22&#038;edit=true"><span class="ab-icon"></span><span class="ab-label"> GUI - VisualEditor [OFF]</span></a>		</li>
 		<li id="wp-admin-bar-gui_root_toolbar" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost/wordpress/wp-admin/options-general.php?page=gui_settings">GUI - VisualEditor</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-gui_root_toolbar-default" class="ab-submenu">
 		<li id="wp-admin-bar-gui_settings_toolbar" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost/wordpress/wp-admin/options-general.php?page=gui_settings">Settings</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-gui_settings_toolbar-default" class="ab-submenu">
 		<li id="wp-admin-bar-gui_editor_toolbar"><a class="ab-item" href="http://localhost/wordpress/wp-admin/options-general.php?page=gui_settings">Editor</a>		</li>
@@ -371,13 +372,13 @@ var ctf = {"ajax_url":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php"}
 		<li id="wp-admin-bar-new-news"><a class="ab-item" href="http://localhost/wordpress/wp-admin/post-new.php?post_type=news">News-release</a>		</li>
 		<li id="wp-admin-bar-new-weekly-news-release"><a class="ab-item" href="http://localhost/wordpress/wp-admin/post-new.php?post_type=weekly-news-release">weekly-news-release</a>		</li>
 		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://localhost/wordpress/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
-		<li id="wp-admin-bar-edit"><a class="ab-item" href="http://localhost/wordpress/wp-admin/post.php?post=2&#038;action=edit">Edit Page</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-edit"><a class="ab-item" href="http://localhost/wordpress/wp-admin/post.php?post=22&#038;action=edit">Edit Page</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
 		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost/wordpress/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Search</label><input type="submit" class="adminbar-button" value="Search"/></form></div>		</li>
 		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://localhost/wordpress/wp-admin/profile.php">Howdy, <span class="display-name">ryknow</span><img alt='' src='http://0.gravatar.com/avatar/0fa49c5ea191c9eccf4dbebb79019f30?s=26&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0fa49c5ea191c9eccf4dbebb79019f30?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
 		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost/wordpress/wp-admin/profile.php"><img alt='' src='http://0.gravatar.com/avatar/0fa49c5ea191c9eccf4dbebb79019f30?s=64&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0fa49c5ea191c9eccf4dbebb79019f30?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>ryknow</span></a>		</li>
 		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://localhost/wordpress/wp-admin/profile.php">Edit My Profile</a>		</li>
-		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost/wordpress/wp-login.php?action=logout&#038;_wpnonce=5fd4b3f08b">Log Out</a>		</li></ul></div>		</li></ul>			</div>
-						<a class="screen-reader-shortcut" href="http://localhost/wordpress/wp-login.php?action=logout&#038;_wpnonce=5fd4b3f08b">Log Out</a>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost/wordpress/wp-login.php?action=logout&#038;_wpnonce=043a2092aa">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/wordpress/wp-login.php?action=logout&#038;_wpnonce=043a2092aa">Log Out</a>
 					</div>
 
 		
@@ -388,5 +389,5 @@ var ctf = {"ajax_url":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php"}
 <script type="text/javascript" src="/wp-content/js/global.js"></script>
 </body>
 </html>
-<!-- Dynamic page generated in 0.704 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2018-03-21 00:51:06 -->
+<!-- Dynamic page generated in 0.818 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-03-26 19:28:35 -->
