@@ -157,7 +157,7 @@ class WPForms_Builder {
 			'fields',
 			'settings',
 			'providers',
-			'payments',
+			'payments'
 		) );
 
 		foreach ( $this->panels as $panel ) {

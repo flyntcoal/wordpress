@@ -5,7 +5,7 @@
 ?>
 <?php get_header(); ?>
 				<div class="container">
-			<div id="content" class="clearfix row">
+			<div id="content" class="clearfix row"style="position:  relative;top: 45px;width: 1168px;left: 219px;">
 				<div class="col-md-12">
 				<div id="main" class="col-md-12 main-ltgov main-ltgov-news clearfix" role="main">
 					<div class="page-header"><h1>Capitol Updates from Lieutenant Governor Mike Parson</h1></div>

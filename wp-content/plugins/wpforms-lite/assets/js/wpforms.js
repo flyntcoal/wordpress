@@ -162,7 +162,6 @@
 							errorClass: 'wpforms-error',
 							validClass: 'wpforms-valid',
 							errorPlacement: function( error, element ) {
-								console.log(error);
 								if ( element.attr( 'type' ) === 'radio' || element.attr( 'type' ) === 'checkbox' ) {
 									if ( element.hasClass( 'wpforms-likert-scale-option' ) ) {
 										if ( element.closest( 'table' ).hasClass( 'single-row' ) ) {

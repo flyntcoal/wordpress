@@ -239,6 +239,12 @@ class WDFMUpdate {
     if (version_compare($version, '1.12.12') == -1) {
       $wpdb->query("ALTER TABLE `" . $wpdb->prefix . "formmaker` CHANGE `mail` `mail` longtext NOT NULL");
     }
+    if (version_compare($version, '1.12.21') == -1) {
+      $wpdb->query("ALTER TABLE `" . $wpdb->prefix . "formmaker` CHANGE `label_order` `label_order` longtext NOT NULL");
+      $wpdb->query("ALTER TABLE `" . $wpdb->prefix . "formmaker` CHANGE `label_order_current` `label_order_current` longtext NOT NULL");
+      $wpdb->query("ALTER TABLE `" . $wpdb->prefix . "formmaker_backup` CHANGE `label_order` `label_order` longtext NOT NULL");
+      $wpdb->query("ALTER TABLE `" . $wpdb->prefix . "formmaker_backup` CHANGE `label_order_current` `label_order_current` longtext NOT NULL");
+    }
     return;
   }
 }

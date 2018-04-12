@@ -1,5 +1,15 @@
 == Changelog ==
 
+= 1.4.5.3 =
+- Changed: Use minified admin assets when appropriate.
+- Changed: Show helpful doc link in form embed modal.
+- Fixed: reCAPTCHA v2 showing in form builder when using Invisible reCAPTCHA.
+- Fixed: Remove jQuery shorthand references in `admin-utils` to prevent conflicts.
+
+= 1.4.5.2 =
+- Fixed: Incorrect documenation link for Input Mask.
+- Fixed: Input Mask value disappearing when form builder is refreshed.
+
 = 1.4.5.1 =
 - Fixed: Dynamic choices not displaying correctly for Multiple Choice and Checkbox fields.
 

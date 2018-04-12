@@ -3,7 +3,7 @@ Contributors: LiveComposer
 Tags: page builder, visual composer, visual editor, visual builder, drag and drop builder, landing page builder, frontend editor, frontend builder, landing pages, landing page, website builder, theme builder, site-builder, layout builder, drag-and-drop, builder, editor, responsive, mobile, layout, front end, frontend, Page Layout, squeeze page, page builder plugin, drag-n-drop page builder
 Requires at least: 4.7
 Tested up to: 4.9
-Stable tag: 1.3.11
+Stable tag: 1.3.13
 License: GPLv3
 
 Front-end page builder for WordPress with drag and drop editing. Build PRO responsive websites and landing pages. Visually customize any page element.
@@ -79,11 +79,30 @@ In most of the cases, this is because the homepage is not a real WordPress page,
 * 🐛 [Please, report any bugs on GitHub](https://github.com/livecomposer/live-composer-page-builder/issues/)
 * ⌛ [You can download any previous version here](https://github.com/live-composer/live-composer-page-builder/releases)
 
-= 1.3.11 - February 9th 2018 =
-
 = FOR OUR PRO USERS: =
 * 🦊 [Check out our WooCommerce Page Builder Extension](https://livecomposerplugin.com/downloads/woocommerce-page-builder/?utm_source=wp-admin&utm_medium=changelog&utm_campaign=woo-integration)
 * 👀 [We keep updating and improving our extensions pack](https://livecomposerplugin.com/downloads/extensions/?utm_source=wp-admin&utm_medium=changelog&utm_campaign=add-ons) ACF + CPT + MegaMenu + 9 more add-ons.
+
+= 1.3.13 - March 22nd 2018 =
+
+= Bug Fixes: =
+* Issue [#902](https://github.com/live-composer/live-composer-page-builder/issues/902): Fixing bug introduced in the previous version. (Temporary disables detection of the other caching plugins).
+
+
+= 1.3.12 - March 21st 2018 =
+
+= Bug Fixes: =
+* Issue [#863](https://github.com/live-composer/live-composer-page-builder/issues/863): Cache not resetting properly preventing for the page to update
+* Issue [#895](https://github.com/live-composer/live-composer-page-builder/issues/895): The section icons cannot be selected when there is no padding set
+* Issue [#714](https://github.com/live-composer/live-composer-page-builder/issues/714): WordPress SEO by Yoast don't read the "Info box module"
+
+= Improved: =
+* Issue [#890](https://github.com/live-composer/live-composer-page-builder/issues/890): WooCommerce out of stock products
+* Issue [#889](https://github.com/live-composer/live-composer-page-builder/issues/889): Improve the module 'Title' for WooCommerce
+* Issue [#845](https://github.com/live-composer/live-composer-page-builder/issues/845): Deactivate LC cache if popular caching plugins are active
+
+
+= 1.3.11 - February 9th 2018 =
 
 In this update we improve compatibility with Yoast SEO plugin and our premium [WooCommerce Integration](https://livecomposerplugin.com/downloads/woocommerce-page-builder/?utm_source=wp-admin&utm_medium=changelog&utm_campaign=woo-integration). Added a possibility to create your custom SVG icons, and improved design controls for many default modules. Default caching engine works better as well.
 

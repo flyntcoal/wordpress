@@ -16,7 +16,7 @@
 				
 				<div class="col-md-6 col-xs-12 margin-bottom-5"style="position:  relative; left: -160px; text-align:  center;"> 
 					<ul id="foot-right-list">
-						<li><a href="/" title="">Office of the Lieutenant Governor</a></li>
+						<li><a href="/" title="">Office of Lieutenant Governor</a></li>
 						<li>State Capitol Building - Room 224<br>Jefferson City, MO 65101</li>
 						<li>Phone: 573.751.4727</li>
 						<li>Fax: 573.751.9422</li>
@@ -33,8 +33,8 @@
 
 			<div class="clearfix"></div>
 			<div class="disclaimer" style="text-align:  center; width: 120%; position:  relative; left: -100px;">
-				Disclaimer: Products and services listed on this website do not constitute an endorsement or recommendation by by the Office of the Lieutenant Governor of the State of Missouri.
-				<br/>Furthermore, the listing of the products or services on this website may not be used in adverting or for endorsement purposes.
+				Disclaimer: Products and services listed on this website do not constitute an endorsement or recommendation by the Office of Lieutenant Governor of the State of Missouri. <br/>
+				Furthermore, the listing of the products or services on this website may not be used in advertising or for endorsement purposes.
 			</div>
 		</div>
 	</div>

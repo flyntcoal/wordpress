@@ -2,8 +2,8 @@
 				<div class="container">
 			<div id="content" class="clearfix row">
 				<div class="col-md-12">
-				<div id="main" class="col-md-12 main-ltgov main-ltgov-news clearfix" role="main">
-					<div class="page-header"><h1>Missouri Lieutenant Governor News</h1></div>
+				<div id="main" class="col-md-12 main-ltgov main-ltgov-news clearfix" role="main" style="position:  relative;top: 45px;width: 1168px;left: 219px;">
+					
 					<div class="col-md-8 col-sm-7">
 
 					<?php

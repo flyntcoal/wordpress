@@ -154,6 +154,11 @@ class WPForms_Field_Radio extends WPForms_Field {
 			);
 		}
 
+		// Required class for pagebreak validation.
+		if ( ! empty( $field['required'] ) ) {
+			$properties['input_container']['class'][] = 'wpforms-field-required';
+		}
+
 		// Custom properties if image choices is enabled.
 		if ( ! $dynamic && ! empty( $field['choices_images'] ) ) {
 

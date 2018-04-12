@@ -41,7 +41,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="navbar-header">
-				<a href="/wordpress/" class="navbar-brand text-hide"> BuyMissouri Logo<img src="/wordpress/wp-content/img/buymologowithtext.png" alt="BuyMissouri Logo" class="col-xs-9" id="logo" style="
+				<a href="/wordpress/" class="navbar-brand text-hide"> BuyMissouri Logo<img src="/wordpress/wp-content/img/buymologowithtext.png" alt="Buy Missouri Logo" class="col-xs-9" id="logo" style="
     width: 450px;
 "></a>
 				<div class="clearfix visible-xs"></div>  
@@ -109,7 +109,7 @@
 						<li><a href="/wordpress/" >HOME</a></li>
 						<li><a href="/wordpress/about/">ABOUT</a></li>
 						<li><a href="/wordpress/business-directory/">BUSINESS DIRECTORY</a></li>
-						<li><a href="/wordpress/business-spotlights/">BUSINESS SPOLIGHTS</a></li>
+						<li><a href="/wordpress/business-spotlights/">BUSINESS SPOTLIGHTS</a></li>
 						<li><a href="/wordpress/sign-up/">SIGN UP</a></li>
 						<li><a href="/wordpress/partners/">PARTNERS</a></li>
 						<li><a href="/wordpress/news-events/">NEWS & EVENTS</a></li>

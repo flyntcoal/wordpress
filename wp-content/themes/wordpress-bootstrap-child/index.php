@@ -1,15 +1,16 @@
 <?php get_header(); ?>
 				<div>
 			<div id="content" class="clearfix row">
-				<div class="col-md-12">
-				<div id="main" class="col-md-12 main-ltgov main-ltgov-news clearfix" role="main">
-					<div class="page-header"><h1 style="position:absolute;top: -150px;left: 200px;color: #ffffff;">Buy Missouri</h1></div>
+				<div class="col-md-12" style="position:  relative;top: 45px;width: 1168px;left: 219px;">
+				<div id="main" class="col-md-12 main-ltgov main-ltgov-news clearfix" role="main" style="min-height:400px;">
+					<!--<div class="page-header"><h1 style="position:absolute;top: -150px;left: 200px;color: #ffffff;"></h1></div>-->
+					<div class="page-header"><h1>Business Spotlight</h1></div>
 					<div class="col-md-8">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 					<article id="post-<?php the_ID(); ?>" <?php post_class('margin-bottom-5 clearfix'); ?> role="article">
 						
-						<header>
+						<header style="border-bottom: 1px solid;">
 						
 							<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail( 'wpbs-featured' ); ?></a>
 							
@@ -21,7 +22,7 @@
 							  $date = get_post_meta( $news_id, 'news_date', true );
 							  echo $date;
 							?> </div>
-							<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+							<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" style="font-size: 20px;"><?php the_title(); ?></a>
 							</p>
 							<!-- <p class="meta"><?php _e("Posted", "wpbootstrap"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php echo get_the_date('F jS, Y', '','', FALSE); ?></time> <?php _e("by", "wpbootstrap"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "wpbootstrap"); ?> <?php the_category(', '); ?>.</p> -->
 							

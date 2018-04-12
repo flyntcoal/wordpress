@@ -129,7 +129,7 @@ class WPForms_Field_Text extends WPForms_Field {
 				'slug'          => 'input_mask',
 				'value'         => esc_html__( 'Input Mask', 'wpforms' ),
 				'tooltip'       => esc_html__( 'Enter your custom input mask.', 'wpforms' ),
-				'after_tooltip' => '<a href="https://wpforms.com/docs/" class="after-label-description">' . esc_html__( 'See Examples & Docs', 'wpforms' ) . '</a>',
+				'after_tooltip' => '<a href="https://wpforms.com/how-to-use-custom-input-masks/" class="after-label-description" target="_blank" rel="noopener noreferrer">' . esc_html__( 'See Examples & Docs', 'wpforms' ) . '</a>',
 			),
 			false
 		);
@@ -138,7 +138,7 @@ class WPForms_Field_Text extends WPForms_Field {
 			$field,
 			array(
 				'slug'  => 'input_mask',
-				'value' => ! empty( $field['mast'] ) ? esc_attr( $field['mast'] ) : '',
+				'value' => ! empty( $field['input_mask'] ) ? esc_attr( $field['input_mask'] ) : '',
 			),
 			false
 		);

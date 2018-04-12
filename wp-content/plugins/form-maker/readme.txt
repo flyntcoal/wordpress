@@ -1,9 +1,9 @@
 === Form Maker by WD - user-friendly drag & drop Form Builder plugin ===
 Contributors: webdorado,10web,wdsupport,formmakersupport
-Tags:  form, form builder, contact form, custom form, feedback, contact, contact forms, captcha, email, form manager, forms, survey
+Tags:  form, form builder, contact form, custom form, feedback, contact, web contact form, captcha, email, form manager, forms, survey
 Requires at least: 3.4
 Tested up to: 4.9
-Stable tag: 1.12.20
+Stable tag: 1.12.21
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,32 +24,32 @@ https://www.youtube.com/watch?v=tN3_c6MhqFk
 
 
 
-Form Maker is a power-packed yet user-friendly form builder plugin. With an intuitive drag and drop interface, form maker is the ultimate solution to help you create responsive WordPress Forms easily and in a timely manner. Add modern and functional forms to your website with a few clicks. Using the plugin you can create forms for pretty much any purpose, from simple contact forms to multi page application, registration survey and questionnaire forms with conditional fields, captcha protection, multiple choice questions and more. It will take you just a few clicks to create the forms and a couple of minutes to customize them with the available themes, styling and display options. This plugin can be a good addition to any website, so go ahead and give it a try.
+Form Maker is a power-packed yet user-friendly form builder plugin. With an intuitive drag and drop interface, this plugin is the ultimate solution to help you create responsive WordPress Forms easily and in a timely manner. Add modern and functional questionnaires to your website with a few clicks. Using the plugin you can create forms for pretty much any purpose, from simple contact form to multi-page application, registration survey and questionnaire with conditional fields, captcha protection, multiple choice questions and more. It will take you just a few clicks to create them and a couple of minutes to customize with the available themes, styling and display options. This plugin can be a good addition to any website, so go ahead and give it a try.
 
 **Benefits**
 
-   * **Better communication between your visitors and you -** Contact forms serve as a communication tool between you and your site visitors, and make it easy to get/receive orders, requests, and inquiries. If you offer memberships, courses or trainings on your website, forms are an easy way to order, apply or register online.
-   * **Valuable User/Customer Feedback** - You are what your user/customer thinks of you! Handy forms to put together surveys and questionnaires and get feedback from your users/customers.
-   * **One plugin, different purposes** - Whether you want to have a single form on the contact page, or multiple forms on different pages on your website, that&#39;s absolutely doable with this form builder plugin. You can create unlimited number of different forms and display them using one of the available display options. Please note, that free version is limited to 7 fields per form.
-   * **Save time -** Plugin uses an intuitive drag and drop interface, which makes it easy to create forms and  add/remove fields to/from the forms.
-   * **Add to the overall website design -** A well designed form can contribute to your website&#39;s overall look and feel. Custom style your forms and have them match with your website design.
-   * **Improve accessibility -** Plugin provides four different form display options, which make your forms easily accessible. Whether you want to embed the form into a post or a page, or have it follow the visitors as they scroll up and down, you have the option to do that.
-   * **Awesome Support -** The team behind this form builder plugin provides timely and effective support to all its users. We keep standards high and response time low.
+   * **Better communication between your visitors and you** - Contact forms serve as a communication tool between you and your site visitors, and make it easy to get/receive orders, requests, and inquiries. If you offer memberships, courses or trainings on your website, forms are an easy way to order, apply or register online.
+   * **Valuable User/Customer Feedback** - You are what your user/customer thinks of you! The plugin lets you put together surveys and questionnaires and get feedback from your users/customers.
+   * **One plugin, different purposes** - Whether you want to have a single form on the contact us page, or multiple, on different pages on your website, that&#39;s absolutely doable with this plugin. You can create unlimited number of different forms and display them using one of the available display options. Please note, that free version is limited to 7 fields.
+   * **Save time** - Plugin uses an intuitive drag and drop interface, which makes it easy to create contact forms and add/remove fields.
+   * **Add to the overall website design** - A well designed contact form can contribute to your website&#39;s overall look and feel. Customize its style and have it match with your website design.
+   * **Improve accessibility** - Plugin provides four different display options, which make your contact forms easily accessible. Whether you want to embed the form into a post or a page, or have it follow the visitors as they scroll up and down, you have the option to do that.
+   * **Awesome Support** - The team behind this plugin provides timely and effective support to all its users. We keep standards high and response time low.
 
 
 **What&#39;s in it**
 
 **MULTIPLE FORM FIELDS**
-Plugin comes with a myriad of form field options to let you create high performing forms. The fields you can add to the forms include: text input, multiple and single choice fields, select box, submit and reset buttons, custom HTML, 3 types of captcha protection and many more. In addition to these fields, the Premium version of the plugin offers file upload, Google Maps, and payment fields with automatic PayPal integration or Stripe integration with an add on.
+Plugin comes with a myriad of field options to let you create high performing forms. The fields you can add include: text input, multiple and single choice fields, select box, submit and reset buttons, custom HTML, 3 types of captcha protection and many more. In addition to these fields, the Premium version of the plugin offers file upload, Google Maps, and payment fields with automatic PayPal integration or Stripe integration with an add on.
 
 **FOUR FORM DISPLAY OPTIONS**
-There are four form display options in the plugin: Embedded, Pop-Up, Scroll-box, and Top-bar. Each of the display options has its own set of settings you can customize.
+There are four display options in the plugin: Embedded, Pop-Up, Scroll-box, and Top-bar. Each of the display options has its own set of settings you can customize.
 
 **DRAG &amp; DROP**
-The intuitive drag-and-drop interface of the plugin makes it the most user-friendly form plugin for WordPress. Easily re-order the sequence of the form fields or move the fields between columns, sections and pages, organizing your forms in no time.
+The intuitive drag-and-drop interface of the plugin makes it the most user-friendly form plugin for WordPress. Easily re-order the sequence of the fields or move them between columns, sections and pages, organizing your forms in no time.
 
 **15 CUSTOMIZABLE THEMES**
-Plugin comes with 15 fully customizable themes that you can apply to your forms. Under the theme options you can configure pretty much any setting of the theme, personalizing options for form header, content, pagination, buttons and more. You can also create your own themes with your personal styling and features.
+Plugin comes with 15 fully customizable themes that you can apply to your forms. Under the theme options you can configure pretty much any setting of the theme, personalizing options for header, content, pagination, buttons and more. You can also create your own themes with your personal styling and features.
 
 **CUSTOM CSS EDITOR**
 You can use the custom CSS editor to give additional styling features to the forms.
@@ -58,16 +58,16 @@ You can use the custom CSS editor to give additional styling features to the for
 Send customized emails to your users as well as website administrators upon submission for any given form.
 
 **MANAGED SUBMISSIONS**
-View and manage the submissions for each form. See number of entries, number of views,the conversion rate and more.
+View and manage the submissions for each form. See number of entries, number of views, the conversion rate and more.
 
 **CONDITIONAL FIELDS**
-Conditional fields feature of the plugin lets you display/hide specific fields on the forms based on the user input. This is a great way to make your forms shorter and avoid receiving irrelevant information.
+Conditional fields feature of the plugin lets you display/hide specific fields based on the user input. This is a great way to make your forms shorter and avoid receiving irrelevant information.
 
-**PRE-BUILD**  **TEMPLATES**
-The form builder plugin comes with 5 pre-built templates, which you can use as they are or customize to better fit your needs.
+**PRE-BUILD TEMPLATES**
+The plugin comes with 5 pre-built templates, which you can use as they are or customize to better fit your needs.
 
 **ADD-ONs**
-Form Maker supports 12 premium add-ons to power up your forms even further. Whether you want to integrate your forms with Mailchimp service, send out conditional emails, or give your visitors an additional payment method like Stripe. Find the full list of add-ons bellow.
+Form Maker supports 12 premium add-ons to power up your forms even further. Whether you want to integrate them with Mailchimp service, send out conditional emails, or give your visitors an additional payment method like Stripe. Find the full list of add-ons bellow.
 
    * [Export/Import](https://web-dorado.com/products/wordpress-form/add-ons/export-import.html)     
    * [Save Progress](https://web-dorado.com/products/wordpress-form/add-ons/save-progress.html)    
@@ -85,11 +85,11 @@ Form Maker supports 12 premium add-ons to power up your forms even further. Whet
 **SETTINGS/CUSTOMIZATION**
 _\*Some customizations described here are available in Premium version. Please refer to feature summary for additional info._
 
-Form Maker plugin provides a full range of form options and features you can tailor to your needs. Each of the forms you create will have its own set of form and display settings. Under the form settings you can choose a theme for each form, adjust email options, choose what happens after the user submits the form, set conditional logic, and choose one of the available payment options, such as PayPal and Stripe (add-on). Under the form display options you can adjust the settings for each form display type.
+Form Maker plugin provides a full range of options and features you can tailor to your needs. Each of the entries you create will have its own set of options and display settings. Under the options you can choose a theme for each form, adjust email options, choose what happens after the user submits, set conditional logic, and choose one of the available payment options, such as PayPal and Stripe (add-on). Under the display settings you can adjust the options for each form display type.
 
-The available form themes are fully configurable, allowing you make the necessary adjustments to the form header,content, input box,buttons, choices, pagination, and add custom CSS. You can change the header background color, adjust the parameters for title, description and header image,customize the parameters for buttons, adjust the settings for single and multiple choice questions, and many more. The changes you make to the form settings will immediately be displayed in the form preview next to the settings box.
+The available themes are fully configurable, allowing you make the necessary adjustments to the header, content, input box, buttons, choices, pagination, and add custom CSS. You can change the header background color, adjust the parameters for title, description and header image,customize the parameters for buttons, adjust the settings for single and multiple choice questions, and many more. The changes you make to the settings will immediately be displayed in the form preview next to the settings box.
 
-With conditional fields option you can set to hide/show specific fields on the form based on the selections your visitors make. You just choose the field you want to show or hide, then set the conditions based on which the field will appear on the form or will be hidden. Form Maker plugin features a user-friendly interface, which makes it easy to create, style and customize the forms.
+With conditional fields option you can set to hide/show specific fields based on the selections your visitors make. You just choose the field you want to show or hide, then set the conditions based on which the field will appear or will be hidden. The plugin features a user-friendly interface, which makes it easy to create, style and customize the forms.
 
 
 **[Premium version adds](https://web-dorado.com/products/wordpress-form.html)**
@@ -117,12 +117,12 @@ After downloading the ZIP file,
 
 If the installation does not succeed, please contact us for help.
 
-After the installation is finished, you can go ahead and start working on your forms. Navigate to **Form Maker &gt; Forms** page to build your very first form. Form Maker plugin provides a few sample forms, which you can quickly edit and publish.
+After the installation is finished, you can go ahead and start working on your contact forms. Navigate to **Form Maker &gt; Forms** page to build your very first form. Form Maker plugin provides a few sample forms, which you can quickly edit and publish.
 
 Using **Form Maker &gt; Forms** page, you can manage existing forms, perform Bulk Actions, such as Publish, Unpublish, Duplicate or Delete. Select the necessary form, choose the bulk action, then press Apply. Also, you can search for your form by writing its title in the top Search input.
 
 **Adding Fields**
-To add a new field to your form, drag New Field button to the area where you wish to place the field. The field editor toolbox will be opened automatically. Click on the field set from which you are going to choose the field, for instance, User Info Fields. Press Name button from this field set to add a Name input to your form. Then click Add and the field will be placed to the area you selected initially.
+To add a new field to your form, drag New Field button to the area where you wish to place the field. The field editor toolbox will be opened automatically. Click on the field set from which you are going to choose the field, for instance, User Info Fields. Press Name button from this field set to add a Name input to your contact form. Then click Add and the field will be placed to the area you selected initially.
 
 It is also possible to search among the fields when adding a new field to your form. Use Filter input at the top left corner of fields toolbox. For example, you can search &quot;phone&quot; and all Phone fields will be filtered.
 
@@ -149,9 +149,9 @@ After adding your form fields and updating your form, you are able to Undo or Re
 
 You can create web forms free of additional coding, with just a few clicks. The functionality of Form Maker is excellent for any kind of online questionnaires.
 
-Form Maker can be used for creating multiple types of forms, including contact forms, evaluation, application forms, quizzes/tests or surveys, online order forms and etc. Form Maker includes various types of fields which can be modified and/or edited.
+Form Maker can be used for creating multiple types of forms, including contact forms, evaluation form, application forms, quizzes/tests or survey forms, online order forms and etc. Form Maker includes various types of fields which can be modified and/or edited.
 
-Whether you are a WordPress beginner or a web guru, Form Maker is the perfect choice. The dynamic web form builder plugin comes with clean visual tools and options, and you do not need to have any web development skills to build a form.
+Whether you are a WordPress beginner or a web guru, Form Maker is the perfect choice. The dynamic web form builder tool comes with clean visual tools and options, and you do not need to have any web development skills to build a form.
 
 = How can I create a form with Form Maker? =
 
@@ -159,23 +159,23 @@ Navigate to **Form Maker > Forms** page to build your very first form. This cont
 
 Using **Form Maker > Forms** page, you can manage existing forms, perform **Bulk Actions,** such as **Publish, Unpublish, Duplicate** or **Delete.** Select the necessary form, choose the bulk action, then press **Apply.** Also, you can search for your form by writing its title in the top **Search** input.
 
-Press **Add New** button from this page, and you will be redirected to **Form Editor** page. Make sure to write a **Title** for this form, then choose the **Theme** which sets the appearance of your form. In case you wish to display the form with the same style as your website theme, select **Inherit From Website Theme** option from **Theme** select box.
+Press **Add New** button from **Forms** page, and you will be redirected to **Form Editor** page. Make sure to write a **Title** for this contact form, then choose the **Theme** which sets the appearance of your form. In case you wish to display the contact form with the same style as your website theme, select **Inherit From Website Theme** option from **Theme** select box.
 
-To add a new field with this application form creator, drag **New Field** button to the area where you wish to place the field. The field editor toolbox will be opened automatically. Click on the field set from which you are going to choose the field, for instance, **User Info Fields.** Press **Name** button from this field set to add a Name input to your form. Then click **Add** and the field will be placed to the area you selected initially.
+To add a new field with this application form creator, drag **New Field** button to the area where you wish to place the field. The field editor toolbox of Form Maker will be opened automatically. Click on the field set from which you are going to choose the form field, for instance, **User Info Fields.** Press **Name** button from this field set to add a Name input to your form. Then click **Add** and the field will be placed to the area of the form you selected initially.
 
-It is also possible to search among the fields when adding a new field to your form. Use **Filter** input at the top left corner of fields toolbox. For example, you can search "phone" and all Phone fields will be filtered.
+It is also possible to search among the form builder fields when adding a new field to your form. Use **Filter** input at the top left corner of fields toolbox. For example, you can search "phone" and all Phone fields will be filtered.
 
 = Can I add a custom header with text and image above my form? =
 
-This dynamic form builder lets you have a nice header section on your forms, which can contain additional content, as well as images with animations. Click on **Form Header** bar of your form to open its toolbox and provide a **Title.** This is the form heading, which will appear above your form. In addition, you can write a **Description** to appear right below the Title. This comes handy, in case you need to write an introduction for your form.
+This dynamic form builder lets you have a nice header section on your forms, which can contain additional content, as well as images with animations. Click on **Form Header** bar of your form to open its toolbox and provide a **Title.** This is the form heading, which will appear above your form. In addition, you can write a **Description** to appear right below the Title of your form. This comes handy, in case you need to write an introduction for your form.
 
 You can also have an image on your form header and set it to appear with an animation effect. Press **Add Image** button to upload and select a picture from **WordPress Media Library.** Then choose the animation effect using Image Animation option.
 
-In case you don’t want the **Header Image** to appear on smartphones and tablets, mark **Hide Image on Mobile** option as checked.
+In case you don’t want the **Header Image** of your forms to appear on smartphones and tablets, mark **Hide Image on Mobile** option as checked.
 
-Don’t forget to **Publish/Update** the form to save the change you made.
+Make sure to **Publish/Update** the form to save the change you made.
 
-= Does Form Maker support for conditional logic and how can I use it? =
+= Does Form Maker support conditional logic and how can I use it? =
 
 Yes, another fantastic feature of this custom form creator plugin is its **Conditional Fields.** This lets you **show** or **hide** fields of your form based on certain selections submitter makes.
 
@@ -183,7 +183,7 @@ The structure of conditional fields in this contact form generator form builder 
 
 Go to **Form Options** of your form, then click **Conditional Fields** tab to start the setup. Press **Add Condition** button to configure the first condition of your form.
 
-**Show/Hide** select box represents the action which will be completed, if all or any of the condition statements are fulfilled. Use the second drop-down menu to select the field which will be shown or hidden.
+**Show/Hide** select box of this form builder plugin represents the action which will be completed, if all or any of the condition statements are fulfilled. Use the second drop-down menu to select the form builder field which will be shown or hidden.
 
 Click the little **Plus (+)** icon to add the statement of your form condition.
 
@@ -192,7 +192,7 @@ For example, let’s assume there is a **Single Choice** field on your form titl
 *Show [Message] if [all] of the following match:*
 *[Inquiry type] is [Support request]*
 
-Make sure to hit **Update** after setting up Conditional Fields.
+Make sure to hit **Update** after setting up Conditional Fields on your Form Maker.
 
 = What styling options do the forms include? =
 
@@ -215,9 +215,9 @@ Options of Form Maker Themes are divided into the following sections:
   * Other
   * Custom CSS
 
-You can preview the design of each theme under Preview block. In case you created forms with multiple pages, you can change its Pagination Type, setting it to Step, Percentage or None.
+You can preview the design of each form theme under Preview block. In case you created forms with multiple pages, you can change its Pagination Type, setting it to Step, Percentage or None.
 
-Custom CSS option in Themes of this offline form builder lets you write additional CSS code and customize your forms further. All CSS rules apply to this editor. Make sure to press Save after modifying the theme.
+Custom CSS option in Themes of this offline form builder lets you write additional CSS code and customize your forms further. All CSS rules apply to this editor. Make sure to press Save after modifying the form theme.
 
 = Does Form Maker use auto-respondent feature? =
 
@@ -225,7 +225,7 @@ You can use **Email Options** of Form Maker to send a fully customizable letter 
 
 This html5 form builder plugin lets you send submitted information to one or multiple email addresses. Furthermore, you can also send a confirmation email to the submitter and let them know you have received their application.
 
-Enable Send E-mail from **Form Options &gt; Email Options** tab and start configuring mailing settings. Most options require the same configuration for Email to Administrator and Email to User. However, there are a few settings which are unique.
+Enable Send E-mail from **Form Options &gt; Email Options** tab and start configuring mailing settings. Most options require the same configuration for Email to Administrator and Email to User on the forms. However, there are a few settings which are unique.
 
 **Email to Administrator**
 
@@ -235,7 +235,7 @@ This section of Email Options allows you to set up notifications of form submiss
 
 **Send to.** Use this setting to select the email field of your form, to which the submissions will be sent.
 
-Important! In case you do not have an email input created from User Info Fields &gt; Email type, the following error message will appear:
+Important! In case you do not have an email input created from User Info Fields &gt; Email type on your form, the following error message will appear:
 
 &quot;There is no email field&quot;.
 
@@ -255,15 +255,15 @@ Note: You need to set up **Form Options > Payment Options** of your form in orde
 
 Configuring Payment Options, you can use Form Maker as an order form generator and let users make payments through your form. Default payment gateway of Form Maker is **PayPal.** Select **PayPal** as **Payment Method** from Form **Options &gt; Payment Options** tab and configure corresponding options.
 
-Also, you can easily integrate the plugin with Stripe using its [Stripe Integration add-on](https://web-dorado.com/products/wordpress-form/add-ons/stripe.html).
+Also, you can easily integrate the forms builder plugin with Stripe using its [Stripe Integration add-on](https://web-dorado.com/products/wordpress-form/add-ons/stripe.html).
 
 **Payment Currency.** Choose the currency to be used for the payments made through your form. Note, that the selected currency symbol will only display on the front-end of the published form.
 
-**Tax (%)**. Specify the percentage of the tax. It will be calculated from the total payment amount of your form, and will be added to the grand total.
+**Tax (%).** Specify the percentage of the tax for your payment form. It will be calculated from the total payment amount of your form, and will be added to the grand total.
 
-**Checkout Mode**. Select the checkout mode for your form. Testmode will display PayPal Sandbox after submission, which allows you to run payment tests. When you are ready to receive payments, enable Production mode.
+**Checkout Mode.** Select the checkout mode for your form. Testmode will display PayPal Sandbox after submission, which allows you to run payment tests. When you are ready to receive payments, enable Production mode.
 
-**Paypal email**. Provide the email address of a valid PayPal account. This account will be used as the recipient of payments through your form.
+**Paypal email.** Provide the email address of a valid PayPal account. This account will be used as the recipient of payments through your form.
 
 = Where can I check the submissions of my forms? =
 
@@ -273,11 +273,11 @@ Also, you can easily integrate the plugin with Stripe using its [Stripe Integrat
 
 **Export to CSV / Export to XML.** You are able to download all submissions of each form in **CSV** or **XML** format by clicking on these buttons.
 
-**Show Filters.** Form Maker lets you filter form submissions by values provided by user, e.g. submitter’s email address, name and more. Press **Show Filters** button, write the values you wish to search with, then press **Search.** Click **Reset** button to clear the filters.
+**Show Filters.** Form Maker lets you filter form submissions by values provided by user, e.g. submitter’s email address, name and more. Press **Show Filters** button on form submissions, write the values you wish to search with, then press **Search.** Click **Reset** button to clear the filters.
 
 **Add/Remove Columns.** This button will help you customize the columns which display in submissions of the selected form. Click on the button and unmark the columns you wish to hide.
 
-*Note: Adding/Removing columns does not delete columns from the submissions table. It just hides them until you activate them again.*
+*Note: Adding/Removing columns does not delete columns from the submissions table of your forms. It just hides them until you activate them again.*
 
 **Block IPs / Unblock IPs.** In case you are receiving spam submissions from certain IP addresses, you can block these addresses. Mark all spam submissions as checked, choose **Block IPs** option from **Bulk Actions** and press **Apply.** You are able to unblock these IP addresses anytime.
 
@@ -293,7 +293,7 @@ Navigate to Form Options &gt; Actions After Submissions tab, and select one of t
    * **Post.** Select this option to redirect users to a specific post after they hit Submit. You will then be able to select the post from Post dropdown menu.
    * **Page.** You can also redirect users to a selected page. Choose this option and specify the destination using Page dropdown menu.
    * **Custom text.** Use this action in case you wish to display a &quot;Thank you&quot; message after users submit the form. The editor box accepts text, basic HTML, as well as values of form fields. Include them to the content by pressing on the top buttons indicating form fields.
-   * **URL.** Configure redirection to any page with this action after submission. Mark URL option, then provide the absolute path of the link to the input that appears.
+   * **URL.** Configure redirection from your forms to any page with this action after submission. Mark URL option, then provide the absolute path of the link to the input that appears.
 
 = What verification methods does Form Maker use? =
 
@@ -301,19 +301,19 @@ Form Maker uses modern verification methods, such as ReCaptcha and invisible ReC
 
 = Can I use Form Maker as a registration form creator? =
 
-You can register users on your website with the help of [WordPress Registration add-on](https://web-dorado.com/products/wordpress-form/add-ons/registration.html). Install the add on and use it alonside the free version of Form Maker plugin.
+You can register users on your website with the help of Form Maker [WordPress Registration add-on](https://web-dorado.com/products/wordpress-form/add-ons/registration.html). Install the add on and use it alongside the free version of Form Maker plugin.
 
 You are able to ask users to provide username, email address and password for their account. The registration of users is done upon completing the form created by this visual form builder plugin.
 
 = Is it possible to publish a form as a widget? =
 
-You can publish your form not only using **Display Options** of this web form builder plugin, but also as a widget. Go to **Appearance > Widgets** page to place your form on any widget area of your website theme.
+You can publish your form not only using **Display Options** of the web form builder tool, but also as a widget. Go to **Appearance > Widgets** page to place your form on any widget area of your website theme.
 
 Search for **Form Maker widget** and drag it to the widget area where you wish to place your form. Specify a **Title** for the widget and choose the form you wish to publish. Press **Save** after making these changes.
 
 = Can the form submissions be shown to site visitors? =
 
-**Pro version** of Form Maker plugin allows you to publish submissions on front-end of your website.
+**Premium version** of Form Maker plugin allows you to publish submissions on front-end of your website.
 
 This form creator plugin lets you select user roles which will be able to view the published submissions. This can be done from **Form Options > General Options** section. Also, in the same section, you are able to choose fields to hide from front-end submissions.
 
@@ -321,16 +321,34 @@ Firstly, add/edit the page or post, where you wish to publish the submissions of
 
 **Select a Form.** Use this drop-down to choose the form, submissions of which you would like to publish.
 
-**Select Date Range.** You can display submissions from a specific date range. Use this option to select **From** and **To** dates.
+**Select Date Range.** You can display form submissions from a specific date range. Use this option to select **From** and **To** dates.
 
 **Select fields.** Use this option to choose which columns to show on the form. Uncheck the options, which you need to hide on front-end submissions.
 
 **Export to / Show.** These two settings are responsible for showing the rest of the attributes of front-end submissions. You can enable/disable **CSV/XML** export buttons, **Statistics, Views, Conversion Rate** and other additional information.
 
-After configuring all necessary options, press **Insert.** Publish your page with submissions, and you will be able to view them on front-end.
+After configuring all necessary options, press **Insert.** Publish your page with form submissions, and you will be able to view them on front-end.
+
+= Can I let users choose between PayPal or offline payments when submitting the form? =
+
+**Premium version** of this handy forms plugin has the features and functions to achieve this. You need to use **Conditional Fields** and **Payment Fields** of the plugin. Here are the necessary steps.
+
+Firstly, add one **Single Choice** field from **Basic Fields** of Form Maker plugin. It should contain the following two options:
+
+  * Pay with PayPal
+  * Pay offline
+
+Afterwards, add two sets of almost identical fields, one of them created with regular form fields, second - with **Payment fields.**
+
+Then you can set conditions from **Form Options > Conditional Fields,** if the user chooses PayPal, payment fields will appear, otherwise, regular fields will.
+
+The user will not be redirected to PayPal if they make their selections using regular form fields.
 
 
 == Changelog ==
+
+= 1.12.21 =
+*  Changed: DB field length.
 
 = 1.12.20 =
 *  Added: New file types for file upload field.
@@ -521,7 +539,7 @@ After configuring all necessary options, press **Insert.** Publish your page wit
 *  Changed: New logo   
 
 = 1.10.8 =
-*  Added: New field type: Phone with flag   
+*  Added: New form field type: Phone with flag   
 *  Fixed: Bug on captcha reset   
 
 = 1.10.7 =
@@ -535,7 +553,7 @@ After configuring all necessary options, press **Insert.** Publish your page wit
 *  Fixed: Bug on matrix field   
 
 = 1.10.5 =
-*  Fixed: JS conflict on Form submission   
+*  Fixed: JS conflict on contact form submission   
 
 = 1.10.4 =
 *  Fixed: Conflict with Yoast SEO plugin    
@@ -592,7 +610,7 @@ After configuring all necessary options, press **Insert.** Publish your page wit
 *  Changed: Featured plugins page   
 
 = 1.9.8 =
-*  Fixed: Unexpected behavior on pressing "Enter" key on back end   
+*  Fixed: Unexpected behavior on pressing "Enter" key on back end form creator page   
 
 = 1.9.7 =
 *  Fixed: JS error on incorrect Google Maps API key   
@@ -622,7 +640,7 @@ After configuring all necessary options, press **Insert.** Publish your page wit
 *  Added: New field type: Date Range   
 
 = 1.8.41 =
-*  Fixed: Bug on conditional fields (for multiple forms on the same page)   
+*  Fixed: Bug on conditional fields (for multiple contact forms on the same page)   
 
 = 1.8.40 =
 *  Changed: Style of required field asterisk   
@@ -715,7 +733,7 @@ Removed: deprecated Number field
 *  Changed: Matrix field display in email    
 
 = 1.8.13 =
-*  Fixed: Style in form edit page    
+*  Fixed: Style in form builder edit page    
 *  Fixed: Bug in PayPal options     
 
 = 1.8.12 =
@@ -898,7 +916,7 @@ Minor bug fixed
 *  New: Arithmetic Captcha
 
 = 1.7.55 =
-*  New: Undo/Rendo form
+*  New: Undo/Redo form
 
 = 1.7.54 =
 bug in conditional fields fixed
@@ -1000,7 +1018,7 @@ bug fixed in email content
 remove fancybox lightbox
 
 = 1.7.24 =
-display php function to publish form
+display php function to publish contact form
 
 = 1.7.23 =
 bug in Recaptcha fixed
@@ -1045,13 +1063,13 @@ line break in custom text in email
 bug fixed in required radio field
 
 = 1.7.7 =
-bug fixed in adding new form
+bug fixed in adding new contact form
 
 = 1.7.6 =
 new email options, conditional fileds
 
 = 1.7.5 =
-conflict with jetpack fixed
+conflict with Jetpack  Contact Form module fixed
 
 = 1.7.4 =
 bug fixed in form options
@@ -1064,7 +1082,7 @@ bug fixed in email options
 
 = 1.7 =
 Div structured, responsive form
-Editable form layout
+Editable html form layout
 New themes
 
 = 1.6.6 =
@@ -1097,9 +1115,10 @@ New themes
 -	Recapthca form field  
 *  Pagebreak of the [Wordpress Form](http://wordpress.org/plugins/form-maker/) Maker: This can be used to break the form into distinct pages.  
 *  Section Break of the Form Maker: This option allows adding a section break to the form page.  
-*  For each form certain types of statistical data are available in the form builder:  
-*  Entries of a form: The number of submitted forms in the form builder.  
+*  For each form certain types of statistical data are available in the form builder tool:  
+*  Entries of a form: The number of submitted forms in the form builder tool.  
 *  Views of a form: The number of times the form has been viewed.  
 *  Conversion Rate of a form: The percentage of submitted forms to the overall number of views.  
+
 = 1.0.0 =
 Initial version

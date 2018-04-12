@@ -11,7 +11,7 @@
 ">
 <div class="row">
 			<div class="col-md-12">
-				<div id="main" class="col-md-12 margin-bottom-25 main-ltgov" role="main">
+				<div id="main" class="col-md-12 margin-bottom-25 main-ltgov" role="main" style="min-height: 715px;">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<header>			
 							<div class="page-header"><h1><?php the_title(); ?></h1></div>
@@ -98,7 +98,7 @@ if($countyArray != null){
 }
 
 //gets business category and puts them into a drop down list
-$businessCategoryArray = $wpdb->get_results( "SELECT EID, CATEGORY FROM CATEGORY_TYPE WHERE ACTIVE = TRUE ORDER BY CATEGORY;" );
+$businessCategoryArray = $wpdb->get_results( "SELECT C.EID, C.CATEGORY FROM CATEGORY_TYPE C, BUSINESS B WHERE C.ACTIVE = TRUE AND B.CATEGORY_EID = C.EID GROUP BY C.EID, C.CATEGORY ORDER BY CATEGORY;" );
 if($businessCategoryArray != null){
 	$ddlBusinessCategory = '<select name="BusinessCategory" id="BusinessCategory" style="margin-right:5px; height:25px;">';
     $ddlBusinessCategory.= '<option value=""></OPTION>';
@@ -183,7 +183,7 @@ $businessSearchResults = $wpdb->get_results( $wpdb->prepare(
 if($businessSearchResults != null){
 	$numberOfBusinesses = count($businessSearchResults);
 	$formattedPhoneNumber = '';
-	$businessList.='<div>';
+	$businessList.='<div style="width:790px;">';
 	for($lc = 0; $lc < $numberOfBusinesses; $lc++) {//lc stands for loop control
 		$businessList.='<span style ="width:781px;">';
 		$business = $businessSearchResults[$lc]; //individual County
@@ -230,6 +230,5 @@ echo $businessList;
 				</div>-->
 </div>				
 </div>
-</div>
-</div>		
+</div>	
 <?php get_footer(); ?>

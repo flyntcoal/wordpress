@@ -1,5 +1,5 @@
 	<?php get_header(); ?>
-	<div class="container">
+	<div class="container" style="position:  relative;top: 44px;">
 		<div id="ltgov-single" class="row">
 			<div class="col-md-12">
 				<div id="main" class="col-md-12 margin-bottom-15 main-ltgov" role="main">
@@ -30,12 +30,6 @@
 					</article>
 
 					<?php endif; ?>
-				<?php get_sidebar(); // sidebar 1 ?>
-				</div> <!-- end #main -->
-				
-				<!--<div class="col-md-4">
-					<?php get_sidebar(); // sidebar 1 ?>
-				</div>-->
 				</div>
 			</div>
 		</div>
