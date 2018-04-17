@@ -3,7 +3,7 @@ Contributors: webdorado,10web,wdsupport,formmakersupport
 Tags:  form, form builder, contact form, custom form, feedback, contact, web contact form, captcha, email, form manager, forms, survey
 Requires at least: 3.4
 Tested up to: 4.9
-Stable tag: 1.12.21
+Stable tag: 1.12.22
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +15,8 @@ https://www.youtube.com/watch?v=tN3_c6MhqFk
 
 = Useful Links: =  
 [Special Offer for all Premium Plugins](https://web-dorado.com/wordpress-plugins-bundle.html)  
+
+
 [WordPress Form Maker](https://web-dorado.com/products/wordpress-form.html)  
 [Demo](http://wpdemo.web-dorado.com/)  
 [Demo Admin](http://wpdemo.web-dorado.com/wp-admin/admin.php?page=Form_maker)  
@@ -70,13 +72,13 @@ The plugin comes with 5 pre-built templates, which you can use as they are or cu
 Form Maker supports 12 premium add-ons to power up your forms even further. Whether you want to integrate them with Mailchimp service, send out conditional emails, or give your visitors an additional payment method like Stripe. Find the full list of add-ons bellow.
 
    * [Export/Import](https://web-dorado.com/products/wordpress-form/add-ons/export-import.html)     
+   * [PDF Integration](https://web-dorado.com/products/wordpress-form/add-ons/pdf.html)  
    * [Save Progress](https://web-dorado.com/products/wordpress-form/add-ons/save-progress.html)    
    * [Stripe Integration](https://web-dorado.com/products/wordpress-form/add-ons/stripe.html)       
-   * [PDF Integration](https://web-dorado.com/products/wordpress-form/add-ons/pdf.html)  
-   * [Mailchimp Integration](https://web-dorado.com/products/wordpress-form/add-ons/mailchimp.html)  
+   * [Conditional Emails](https://web-dorado.com/products/wordpress-form/add-ons/conditional-emails.html)      
    * [WordPress Registration](https://web-dorado.com/products/wordpress-form/add-ons/registration.html)  
    * [Post Generation](https://web-dorado.com/products/wordpress-form/add-ons/post-generation.html)      
-   * [Conditional Emails](https://web-dorado.com/products/wordpress-form/add-ons/conditional-emails.html)      
+   * [Mailchimp Integration](https://web-dorado.com/products/wordpress-form/add-ons/mailchimp.html)  
    * [Dropbox Integration](https://web-dorado.com/products/wordpress-form/add-ons/dropbox.html)     
    * [Google Drive Integration](https://web-dorado.com/products/wordpress-form/add-ons/google-drive.html)               
    * [Pushover Integration](https://web-dorado.com/products/wordpress-form/add-ons/pushover.html)       
@@ -344,20 +346,120 @@ Then you can set conditions from **Form Options > Conditional Fields,** if the u
 
 The user will not be redirected to PayPal if they make their selections using regular form fields.
 
+= How can a migrate Form Maker from one site to another? =
+
+If you want to migrate Form Maker database tables from one WordPress site to another, you need to follow the instructions below.
+
+*Please uninstall Form Maker if you have it installed on your second site first, then proceed with these steps:*
+
+**On your first WordPress site:**
+
+1. Go to **PHPMyAdmin** of your site,
+2. open your WordPress site database,
+3. select **Export** menu item,
+4. change the radio button from **Quick** to **Custom,**
+5. unselect all tables and select the following 7 tables:
+
+*[wp1_prefix]_formmaker*
+*[wp1_prefix]_formmaker_blocked*
+*[wp1_prefix]_formmaker_query*
+*[wp1_prefix]_formmaker_sessions*
+*[wp1_prefix]_formmaker_submits*
+*[wp1_prefix]_formmaker_themes*
+*[wp1_prefix]_formmaker_views*
+
+(where **[wp1_prefix]** is your WordPress database prefix)
+
+6. scroll all the way down and press the **Go** button. This should export an SQL file containing those 7 tables.
+
+**On your second WordPress site:**
+
+7. Go to your WordPress database,
+8. select **Import** menu item,
+9. browse for the exported SQL file,
+10. scroll all the way down and press **Go** button. This should import Form Maker tables to your WordPress database.
+
+Now you need to change the prefix for those tables to the one that is set for your second WordPress database.
+
+11. Select **[wp1_prefix]_formmaker** table from the left pane of PHPMyAdmin of your second WordPress database,
+12. select **Operations** menu item from the top menu
+13. scroll to **Table Options** box and edit the value of **Rename table to** field with the second WordPress database prefix, so that the table name now looks like this: **[wp2_prefix]_formmaker** (where **[wp2_prefix]** is your second WordPress database prefix)
+14. do the same for other 6 tables.
+15. go to your second WordPress administration panel and install the Form Maker.
+
+That's it! Now you should have your forms, submissions, and themes all set up.
+
+= Characters in the submission CSV file do not appear correctly. How can I fix this? =
+
+Please note, that this problem is not caused by Form Maker plugin. It is rather a formatting issue in Excel. However, you can prevent it the following way:
+
+  * Please open a new Microsoft Excel document first. Then go to **Data** tab from the menu and click on **From Text.**
+  * Choose the CSV file you need to view. You'll see a pop-up window with several options, you'll find the **File Origin** option along with them.
+  * Please select **Unicode (UTF-8)** for this dropdown and click **Next** if you need to edit other options, or just **Finish** to insert the document.
+
+The special characters in the CSV submissions of your forms should appear correctly afterwards.
+
+= I do not receive any submission emails of my forms. How can this be fixed? =
+
+This might be a problem related to the hosting configurations of your website. You can check that the following way.
+
+Please install [WP SMTP](https://wordpress.org/plugins/wp-smtp/) plugin and go to **Settings > WP SMTP** page. Scroll down to the bottom and send a test mail to your email address.
+
+If the test email will be sent, then the issue is triggered by Form Maker plugin. Please contact Web-Dorado Customer Care at support@web-dorado.com. Our developers will have a closer look.
+
+But if the test mail fails, the problem is on the server of your website. Please contact your hosting provider in this case, and ask them to enable mail functions on your site.
+
+= My forms do not submit due to Javascript errors. How can they be eliminated? =
+
+This problem could be related to permission settings of Form Maker files on your web server. Please check that the following way.
+
+Connect to your website files via FTP connection and open the following two directories:
+
+*wp-content/uploads/form-maker-frontend/js/*
+*wp-content/uploads/form-maker-frontend/css/*
+
+Please make sure all **.css** and **.js** files in these folders have their permissions set to **777.**
+
+If the permissions are correct, please do not hesitate to contact Web-Dorado Customer Care at support@web-dorado.com.
+
+= Is it possible to pass parameters from the page URL to form fields? =
+
+To fill in values of parameters from a URL into Form Maker fields, it is necessary to implement a custom script. Please navigate to **Form Options > Javascript** page and add the following code inside **before_load()** function:
+
+`function getParameterByName(name, url) {
+   if (!url) {
+      url = window.location.href;
+   }
+   name = name.replace(/[[]]/g, "$&");
+   var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+   results = regex.exec(url);
+   if (!results) return null;
+   if (!results[2]) return '';
+   return decodeURIComponent(results[2].replace('/+/g', " "));
+}
+jQuery("#{{field_id}}").val(getParameterByName("{{param_name}}"));
+jQuery("#{{field_id}}").attr("class", "input_active");`
+
+Where **{{field_id}}** is the ID of the field you wish to prefill. Also, **{{param_name}}** is the name of the parameter in the URL.
+
+
 
 == Changelog ==
 
+= 1.12.22 =
+*  Fixed: security issue with CSV export.
+ 
 = 1.12.21 =
 *  Changed: DB field length.
 
 = 1.12.20 =
-*  Added: New file types for file upload field.
+*  Added: New file types for Form Maker file upload field.
 *  Improved: Editing empty mini labels.
 *  Fixed: Form Submissions CSV export.
 
 = 1.12.19 =
 *  Fixed: Form Submissions table view for long texts.
-*  Fixed: Displaying phone field value in email notification.
+*  Fixed: Displaying phone field value in form email notification.
 *  Fixed: Bug on deleting a Page break.
 
 = 1.12.18 =
@@ -369,32 +471,32 @@ The user will not be redirected to PayPal if they make their selections using re
 *  Fixed: UTF-8 text for Email subject and Email from name.
 
 = 1.12.16 =
-*  Improved: Email functionality.
+*  Improved: Email functionality of Form Maker.
 *  Fixed: Multiple choice and single choice with long labels.
-*  Fixed: Submissions CSV export with UTF-8 encoding.
+*  Fixed: Form submissions CSV export with UTF-8 encoding.
 
 = 1.12.15 =
-*  Fixed: Error on adding a field.   
+*  Fixed: Error on adding a form field.   
 
 = 1.12.14 =
-*  Fixed: Submissions page.
+*  Fixed: Form submissions page.
 
 = 1.12.13 =
 *  Fixed: Bug on Popup forms on mobile.
 *  Fixed: Major bug.
 *  Fixed: Exclude Stripe field from submissions export.
 *  Fixed: "Custom HTML" field label in conditional fields list.
-*  Fixed: Edit table of fields in submissions.
+*  Fixed: Edit table of form fields in submissions.
 *  Fixed: Trim data inserted by MySQL mapping.
 *  Fixed: Default values for payment multiple and payment single choices.
 *  Changed: Prevent default on form enter.
 
 = 1.12.12 =
-*  Changed: Improved query to get number of submissions.
+*  Changed: Improved query to get number of form submissions.
 *  Changed: Email field length in DB.
 
 = 1.12.11 =
-*  Fixed: Preview does not show with widget on page with some Wordpress themes.
+*  Fixed: Form preview does not show with widget on page with some Wordpress themes.
 *  Fixed: Do not check conditionally hidden required fields.
 *  Fixed: Not embedded forms do not show on form preview page.
 *  Fixed: Post/page search on display options pages.
@@ -408,7 +510,7 @@ The user will not be redirected to PayPal if they make their selections using re
 *  Fixed: Matrix field in email.
 *  Changed: Disable widget in preview page.
 *  Fixed: Widget functionality with Contact Form Maker.
-*  Fixed: User manual links.
+*  Fixed: Form Maker user manual links.
 *  Fixed: Default values for multiple and single choices.
 *  Fixed: Add new theme.
 *  Fixed: Redirect from Paypal.

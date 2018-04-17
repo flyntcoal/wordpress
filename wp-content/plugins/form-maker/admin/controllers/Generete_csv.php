@@ -86,9 +86,15 @@ class FMControllerGenerete_csv {
     $output = fopen($tempfile, "a");
 
     if ( $limitstart == 0 ) {
+      foreach ($sorted_label_names_original as $i => $rec) {
+        $sorted_label_names_original[$i] = ltrim($rec, '=');
+      }
       fputcsv($output, $sorted_label_names_original, $csv_delimiter);
     }
     foreach ( $data as $record ) {
+      foreach ($record as $i => $rec) {
+        $record[$i] = ltrim($rec, '=');
+      }
       fputcsv($output, $record, $csv_delimiter);
     }
 

@@ -41,9 +41,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="navbar-header">
-				<a href="/wordpress/" class="navbar-brand text-hide"> BuyMissouri Logo<img src="/wordpress/wp-content/img/buymologowithtext.png" alt="Buy Missouri Logo" class="col-xs-9" id="logo" style="
-    width: 450px;
-"></a>
+				<a href="/wordpress/" class="navbar-brand text-hide"> BuyMissouri Logo<img src="/wordpress/wp-content/img/buy-mo-header-logo-full.png" alt="Buy Missouri Logo" class="col-xs-9" id="logo" style="width: 519px; position:relative; top:10px;"></a>
 				<div class="clearfix visible-xs"></div>  
 				<div id="utility-bar-region" class="col-sm-7 col-sm-push-5" style="width: 500px;position:  absolute;left: auto; background-color:#294d7d;">
 					<div class="row">
@@ -106,14 +104,14 @@
 			<div class="row">
 				<div class="navbar-collapse collapse" id="navbar-main" style="position: absolute; top: 0px;height: 1px;width: 1170px;margin-left:  auto;margin-right:  auto;">
 					<ul class="nav navbar-nav yamm" id="navbar-lt" style="    background: #BD272F;    border-bottom: 5px solid #BD272F;">
-						<li><a href="/wordpress/" >HOME</a></li>
-						<li><a href="/wordpress/about/">ABOUT</a></li>
-						<li><a href="/wordpress/business-directory/">BUSINESS DIRECTORY</a></li>
-						<li><a href="/wordpress/business-spotlights/">BUSINESS SPOTLIGHTS</a></li>
-						<li><a href="/wordpress/sign-up/">SIGN UP</a></li>
-						<li><a href="/wordpress/partners/">PARTNERS</a></li>
-						<li><a href="/wordpress/news-events/">NEWS & EVENTS</a></li>
-						<li><a href="/wordpress/contact-us/">CONTACT US</a></li>
+						<li><a href="/wordpress/" >Home</a></li>
+						<li><a href="/wordpress/about/">About</a></li>
+						<li><a href="/wordpress/business-directory/">Business Directory</a></li>
+						<li><a href="/wordpress/business-spotlights/">Business Spotlights</a></li>
+						<li><a href="/wordpress/sign-up/">Sign Up</a></li>
+						<li><a href="/wordpress/partners/">Patners</a></li>
+						<li><a href="/wordpress/news-events/">News & Events</a></li>
+						<li><a href="/wordpress/contact-us/">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>

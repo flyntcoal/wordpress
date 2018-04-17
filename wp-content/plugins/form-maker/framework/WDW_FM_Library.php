@@ -859,6 +859,7 @@ class WDW_FM_Library {
     if ( strstr($str, '"') ) {
       $str = '"' . str_replace('"', '""', $str) . '"';
     }
+    $str = ltrim($str, '=');
   }
 
   /**
